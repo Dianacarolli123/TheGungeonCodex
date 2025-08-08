@@ -1,0 +1,206 @@
+[
+    {
+    "id": 1,
+    "name": "Full Heart",
+    "description": "Restaura un corazón completo al recogerlo. Aparece como recompensa en salas limpias, cofres rotos o tiendas con precio variable.",
+    "descriptionOverview": "Restaura un corazón completo al recogerlo. Aparece como recompensa en salas limpias, cofres rotos o tiendas con precio variable.",
+    "srcImg": "assets/img/Drops/fullheart01.png",
+    "stats": [
+        { "label": "C" },
+        { "label": "Passive" },
+        { "label": "18" }
+    ],
+    "statsOverview": [
+        { "label": "Se consume automáticamente si el jugador tiene salud perdida." },
+        { "label": "Puede aparecer en tiendas con precio base entre 18 y 20 casquillos." },
+        { "label": "Tiene prioridad sobre Half Heart si ambos están presentes." }
+    ]
+    },
+    {
+    "id": 2,
+    "name": "Half Heart",
+    "description": "Restaura medio corazón al instante. Es más común que el Full Heart y aparece como drop tras salas estándar.",
+    "descriptionOverview": "Restaura medio corazón al instante. Es más común que el Full Heart y aparece como drop tras salas estándar.",
+    "srcImg": "assets/img/Drops/halfheart01.png",
+    "stats": [
+        { "label": "C" },
+        { "label": "Passive" },
+        { "label": "12" }
+    ],
+    "statsOverview": [
+        { "label": "Efecto inmediato al contacto si el jugador no tiene salud completa." },
+        { "label": "Puede aparecer en tiendas con precio estándar de 12 casquillos." },
+        { "label": "No se genera si el jugador ya está en máximo de vida." }
+    ]
+    },
+    {
+    "id": 3,
+    "name": "Key",
+    "description": "Permite abrir cofres, salas cerradas o acceder a zonas bloqueadas. Es uno de los drops estratégicos más importantes del juego.",
+    "descriptionOverview": "Permite abrir cofres, salas cerradas o acceder a zonas bloqueadas. Es uno de los drops estratégicos más importantes del juego.",
+    "srcImg": "assets/img/Drops/key01.png",
+    "stats": [
+        { "label": "C" },
+        { "label": "Passive" },
+        { "label": "25" }
+    ],
+    "statsOverview": [
+        { "label": "Se almacena al recogerla y no se consume hasta usarse manualmente." },
+        { "label": "El precio en tiendas suele ser 25 casquillos; puede subir con maldición activa." },
+        { "label": "No se genera como drop si el jugador tiene más de tres llaves en inventario." }
+    ]
+    },
+    {
+    "id": 4,
+    "name": "Armor",
+    "description": "Otorga un punto de armadura adicional. Se pierde al recibir daño, pero anula el golpe por completo.",
+    "descriptionOverview": "Otorga un punto de armadura adicional. Se pierde al recibir daño, pero anula el golpe por completo.",
+    "srcImg": "assets/img/Drops/armor01.png",
+    "stats": [
+        { "label": "C" },
+        { "label": "Passive" },
+        { "label": "16" }
+    ],
+    "statsOverview": [
+        { "label": "Se añade al contador de armadura; no cura vida." },
+        { "label": "Absorbe un solo impacto completo y desaparece al activarse." },
+        { "label": "Precio estándar en tiendas: 16 casquillos." }
+    ]
+    },
+    {
+    "id": 5,
+    "name": "Supply Drop",
+    "description": "Caja de suministros que restaura munición parcial o completa a un arma seleccionada. Aparece como recompensa especial.",
+    "descriptionOverview": "Caja de suministros que restaura munición parcial o completa a un arma seleccionada. Aparece como recompensa especial.",
+    "srcImg": "assets/img/Drops/supplydrop01.png",
+    "stats": [
+        { "label": "B" },
+        { "label": "Passive" },
+        { "label": "0" }
+    ],
+    "statsOverview": [
+        { "label": "Al recogerla, el jugador puede asignarla a cualquier arma del inventario." },
+        { "label": "Restaura hasta 50% o 100% de munición según tipo de arma." },
+        { "label": "No es comerciable; drop especial fuera de tiendas." }
+    ]
+    },
+    {
+    "id": 6,
+    "name": "Map",
+    "description": "Revela el diseño completo del piso actual, mostrando salas, cofres y rutas sin necesidad de exploración.",
+    "descriptionOverview": "Revela el diseño completo del piso actual, mostrando salas, cofres y rutas sin necesidad de exploración.",
+    "srcImg": "assets/img/Drops/map01.png",
+    "stats": [
+        { "label": "B" },
+        { "label": "Passive" },
+        { "label": "0" }
+    ],
+    "statsOverview": [
+        { "label": "Drop especial; no comerciable en tiendas estándar." },
+        { "label": "Se activa automáticamente al recogerlo y revela el mapa completo del piso." },
+        { "label": "No muestra ubicaciones de enemigos ni eventos dinámicos." }
+    ]
+    },
+    {
+    "id": 7,
+    "name": "Blank",
+    "description": "Pulso que elimina proyectiles enemigos en pantalla y aturde a enemigos cercanos. Puede usarse manualmente.",
+    "descriptionOverview": "Pulso que elimina proyectiles enemigos en pantalla y aturde a enemigos cercanos. Puede usarse manualmente.",
+    "srcImg": "assets/img/Drops/blank01.png",
+    "stats": [
+        { "label": "A" },
+        { "label": "Passive" },
+        { "label": "20" }
+    ],
+    "statsOverview": [
+        { "label": "Se acumula hasta un máximo de 2 por piso salvo excepciones." },
+        { "label": "Precio estándar en tienda: 20 casquillos." },
+        { "label": "También puede aparecer como drop tras derrotar jefes o limpiar salas ocultas." }
+    ]
+    },
+    {
+    "id": 8,
+    "name": "Ammo",
+    "description": "Caja de munición que restaura la capacidad total de una de las armas que el jugador tenga equipada.",
+    "descriptionOverview": "Caja de munición que restaura la capacidad total de una de las armas que el jugador tenga equipada.",
+    "srcImg": "assets/img/Drops/ammo01.png",
+    "stats": [
+        { "label": "C" },
+        { "label": "Passive" },
+        { "label": "0" }
+    ],
+    "statsOverview": [
+        { "label": "Solo afecta a armas con sistema de munición activa (excluye armas con carga infinita)." },
+        { "label": "Drop automático tras limpiar ciertas salas si alguna arma está vacía." },
+        { "label": "No es comerciable en tiendas estándar." }
+    ]
+    },
+    {
+    "id": 9,
+    "name": "Hegemony Credit",
+    "description": "Moneda especial que se obtiene como recompensa al derrotar jefes. Se usa fuera de la mazmorra para desbloquear contenido permanente.",
+    "descriptionOverview": "Moneda especial que se obtiene como recompensa al derrotar jefes. Se usa fuera de la mazmorra para desbloquear contenido permanente.",
+    "srcImg": "assets/img/Drops/hegemonycredit01.png",
+    "stats": [
+        { "label": "S" },
+        { "label": "Passive" },
+        { "label": "0" }
+    ],
+    "statsOverview": [
+        { "label": "No usable en run actual; se acumula al perfil del jugador." },
+        { "label": "Solo se obtiene tras vencer jefes principales." },
+        { "label": "Requisito clave para desbloquear armas, personajes y mejoras desde el hub." }
+    ]
+    },
+    {
+    "id": 10,
+    "name": "Silver Shell",
+    "description": "Casquillo plateado con valor superior al casquillo estándar. Otorga más dinero al recogerlo.",
+    "descriptionOverview": "Casquillo plateado con valor superior al casquillo estándar. Otorga más dinero al recogerlo.",
+    "srcImg": "assets/img/Drops/silvershell01.png",
+    "stats": [
+        { "label": "C" },
+        { "label": "Passive" },
+        { "label": "5" }
+    ],
+    "statsOverview": [
+        { "label": "Drop monetario poco común; valor base: 5 casquillos." },
+        { "label": "Puede aparecer al romper cofres, tablas o como drop de enemigos raros." },
+        { "label": "Se consume al instante; suma directo al contador de dinero." }
+    ]
+    },
+    {
+    "id": 11,
+    "name": "Gold Shell",
+    "description": "Casquillo dorado de alto valor económico. Rara vez aparece y otorga una gran cantidad de dinero al ser recogido.",
+    "descriptionOverview": "Casquillo dorado de alto valor económico. Rara vez aparece y otorga una gran cantidad de dinero al ser recogido.",
+    "srcImg": "assets/img/Drops/goldshell01.png",
+    "stats": [
+        { "label": "B" },
+        { "label": "Passive" },
+        { "label": "25" }
+    ],
+    "statsOverview": [
+        { "label": "Valor monetario alto: 25 casquillos al recoger." },
+        { "label": "Drop especial en cofres raros, salas secretas o jefes." },
+        { "label": "Se consume inmediatamente; no puede almacenarse." }
+    ]
+    },
+    {
+    "id": 12,
+    "name": "Glass Guon Stone",
+    "description": "Orbe de vidrio que orbita al jugador bloqueando proyectiles enemigos. Se destruye al recibir daño, pero puede tener múltiples copias.",
+    "descriptionOverview": "Orbe de vidrio que orbita al jugador bloqueando proyectiles enemigos. Se destruye al recibir daño, pero puede tener múltiples copias.",
+    "srcImg": "assets/img/Drops/glassguonstone01.png",
+    "stats": [
+        { "label": "B" },
+        { "label": "Passive" },
+        { "label": "0" }
+    ],
+    "statsOverview": [
+        { "label": "Drop temporal; se pierde al recibir daño o pasar de piso." },
+        { "label": "Puede acumularse con otras Glass Guon Stones en simultáneo." },
+        { "label": "No es comerciable; aparece como recompensa especial o sinergia." }
+    ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    { "id": 1, 
+    "name": "Bullet Kin", 
+    "lore": "The Marine era un guardia de seguridad asignado a las instalaciones de investigación de Primerdyne R&D. Durante una prueba fallida, una criatura interdimensional fue liberada en el complejo. Su arma se atascó, y en lugar de enfrentar el peligro, huyó en una cápsula de escape, abandonando a los científicos y a sus compañeros soldados a su suerte. Consumido por la culpa, viaja al Gungeon con la esperanza de cambiar su pasado. Si logra usar la Bala que puede matar el pasado, es transportado de vuelta al momento crítico. Esta vez, puede enfrentarse a la criatura y salvar a sus compañeros, redimiéndose como un verdadero héroe.",
+    "statsDescription": [
+        { "label": "Usa mágia"},
+        { "label": "Cult of the Gundead"}
+    ],
+    "stats": [
+        { "label": "Health", "value": 100 },
+        { "label": "Accuracy", "value": 85 },
+        { "label": "Attack", "value": 60 },
+        { "label": "Reload Speed", "value": 80 },
+        { "label": "Versatility", "value": 65 },
+        { "label": "Supplies", "value": 75 },
+        { "label": "Defense", "value": 70 }
+    ],
+    "srcImgbg": "assets/img/Enemies/bulletkin02.png"    
+    },
+    { "id": 2, 
+    "name": "Cardinal", 
+    "lore": "The Marine era un guardia de seguridad asignado a las instalaciones de investigación de Primerdyne R&D. Durante una prueba fallida, una criatura interdimensional fue liberada en el complejo. Su arma se atascó, y en lugar de enfrentar el peligro, huyó en una cápsula de escape, abandonando a los científicos y a sus compañeros soldados a su suerte. Consumido por la culpa, viaja al Gungeon con la esperanza de cambiar su pasado. Si logra usar la Bala que puede matar el pasado, es transportado de vuelta al momento crítico. Esta vez, puede enfrentarse a la criatura y salvar a sus compañeros, redimiéndose como un verdadero héroe.",
+    "statsDescription": [
+        { "label": "Usa mágia"},
+        { "label": "Cult of the Gundead"}
+    ],
+    "stats": [
+        { "label": "Health", "value": 100 },
+        { "label": "Accuracy", "value": 85 },
+        { "label": "Attack", "value": 60 },
+        { "label": "Reload Speed", "value": 80 },
+        { "label": "Versatility", "value": 65 },
+        { "label": "Supplies", "value": 75 },
+        { "label": "Defense", "value": 70 }
+    ],
+    "srcImgbg": "assets/img/Enemies/cardinal02.png"    
+    }
+
+]

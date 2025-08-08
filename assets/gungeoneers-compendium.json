@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "name": "The Marine",
+    "lore": "Ex guardia de Primerdyne R&D. Huyó tras un experimento fallido que liberó una criatura interdimensional. Busca redimirse en el Gungeon.",
+    "statsDescription": [
+      { "label": "Inicial" },
+      { "label": "Preciso" }
+    ],
+    "stats": [
+      { "label": "Health", "value": 100 },
+      { "label": "Accuracy", "value": 85 },
+      { "label": "Attack", "value": 60 },
+      { "label": "Reload Speed", "value": 80 },
+      { "label": "Versatility", "value": 65 },
+      { "label": "Supplies", "value": 75 },
+      { "label": "Defense", "value": 70 }
+    ],
+    "srcImgbg": "assets/img/Gungeoneers/themarine02.png"
+  },
+  {
+    "id": 2,
+    "name": "Galactic Commander",
+    "lore": "Variante alternativa del Marine, líder de una ofensiva galáctica contra el Hegemony. Representa redención militar extrema.",
+    "statsDescription": [
+      { "label": "Variante" },
+      { "label": "Táctico" }
+    ],
+    "stats": [
+      { "label": "Health", "value": 90 },
+      { "label": "Accuracy", "value": 88 },
+      { "label": "Attack", "value": 70 },
+      { "label": "Reload Speed", "value": 85 },
+      { "label": "Versatility", "value": 60 },
+      { "label": "Supplies", "value": 65 },
+      { "label": "Defense", "value": 75 }
+    ],
+    "srcImgbg": "assets/img/Gungeoneers/galacticcommander02.png"
+  },
+  {
+    "id": 3,
+    "name": "The Convict",
+    "lore": "Antes conocida como Laser Lily, fue traicionada por Black Stache y capturada por el Hegemony. Busca cambiar su pasado criminal.",
+    "statsDescription": [
+      { "label": "Inicial" },
+      { "label": "Agresiva" }
+    ],
+    "stats": [
+      { "label": "Health", "value": 75 },
+      { "label": "Accuracy", "value": 70 },
+      { "label": "Attack", "value": 85 },
+      { "label": "Reload Speed", "value": 65 },
+      { "label": "Versatility", "value": 60 },
+      { "label": "Supplies", "value": 50 },
+      { "label": "Defense", "value": 55 }
+    ],
+    "srcImgbg": "assets/img/Gungeoneers/theconvict02.png"
+  },
+  {
+    "id": 4,
+    "name": "Rebel Leader",
+    "lore": "Variante de The Convict en una línea donde lideró una rebelión contra el Hegemony. Más precisa y táctica.",
+    "statsDescription": [
+      { "label": "Variante" },
+      { "label": "Rebelde" }
+    ],
+    "stats": [
+      { "label": "Health", "value": 80 },
+      { "label": "Accuracy", "value": 78 },
+      { "label": "Attack", "value": 75 },
+      { "label": "Reload Speed", "value": 70 },
+      { "label": "Versatility", "value": 65 },
+      { "label": "Supplies", "value": 60 },
+      { "label": "Defense", "value": 60 }
+    ],
+    "srcImgbg": "assets/img/Gungeoneers/rebelleader02.png"
+  },
+  {
+    "id": 5,
+    "name": "The Hunter",
+    "lore": "Capturada por Dr. Wolfenclaw y congelada por más de mil años. Busca venganza y recuperar a su perro Junior.",
+    "statsDescription": [
+      { "label": "Inicial" },
+      { "label": "Exploradora" }
+    ],
+    "stats": [
+      { "label": "Health", "value": 75 },
+      { "label": "Accuracy", "value": 90 },
+      { "label": "Attack", "value": 65 },
+      { "label": "Reload Speed", "value": 70 },
+      { "label": "Versatility", "value": 60 },
+      { "label": "Supplies", "value": 80 },
+      { "label": "Defense", "value": 60 }
+    ],
+    "srcImgbg": "assets/img/Gungeoneers/thehunter02.png"
+  },
+  {
+    "id": 6,
+    "name": "The Huntress",
+    "lore": "Variante alternativa de The Hunter, proveniente de una línea temporal donde fue entrenada por alquimistas para rastrear entidades mágicas. Su estilo combina precisión con trampas y proyectiles encantados.",
+    "statsDescription": [
+        { "label": "Variante" },
+        { "label": "Técnica" }
+    ],
+    "stats": [
+        { "label": "Health", "value": 75 },
+        { "label": "Accuracy", "value": 88 },
+        { "label": "Attack", "value": 70 },
+        { "label": "Reload Speed", "value": 75 },
+        { "label": "Versatility", "value": 65 },
+        { "label": "Supplies", "value": 70 },
+        { "label": "Defense", "value": 60 }
+    ],
+    "srcImgbg": "assets/img/Gungeoneers/thehuntress02.png"
+},
+  {
+    "id": 7,
+    "name": "The Pilot",
+    "lore": "Contrabandista espacial que abandonó a su amigo Z para escapar del Hegemony. Busca redimirse y salvarlo.",
+    "statsDescription": [
+      { "label": "Inicial" },
+      { "label": "Versátil" }
+    ],
+    "stats": [
+      { "label": "Health", "value": 80 },
+      { "label": "Accuracy", "value": 70 },
+      { "label": "Attack", "value": 60 },
+      { "label": "Reload Speed", "value": 75 },
+      { "label": "Versatility", "value": 85 },
+      { "label": "Supplies", "value": 90 },
+      { "label": "Defense", "value": 55 }
+    ],
+    "srcImgbg": "assets/img/Gungeoneers/thepilot02.png"
+  },
+  {
+    "id": 8,
+    "name": "Wingman",
+    "lore": "Miniatura del compañero de Z en la nave del pasado del Pilot. Lo acompaña como dron de combate con misiles guiados.",
+    "statsDescription": [
+      { "label": "Companion" },
+      { "label": "Soporte" }
+    ],
+    "stats": [
+      { "label": "Health", "value": 60 },
+      { "label": "Accuracy", "value": 80 },
+      { "label": "Attack", "value": 50 },
+      { "label": "Reload Speed", "value": 90 },
+      { "label": "Versatility", "value": 70 },
+      { "label": "Supplies", "value": 85 },
+      { "label": "Defense", "value": 65 }
+    ],
+    "srcImgbg": "assets/img/Gungeoneers/wingman02.png"
+  },
+  {
+    "id": 9,
+    "name": "The Bullet",
+    "lore": "Miembro renegado de los Gundead que tomó una espada para enfrentar a Cannon. Busca redimir su especie.",
+    "statsDescription": [
+      { "label": "Secreto" },
+      { "label": "Melee" }
+    ],
+    "stats": [
+      { "label": "Health", "value": 90 },
+      { "label": "Accuracy", "value": 40 },
+      { "label": "Attack", "value": 95 },
+      { "label": "Reload Speed", "value": 50 },
+      { "label": "Versatility", "value": 60 },
+      { "label": "Supplies", "value": 40 },
+      { "label": "Defense", "value": 80 }
+    ],
+    "srcImgbg": "assets/img/Gungeoneers/thebullet02.png"
+  },
+  {
+  "id": 10,
+  "name": "The Bullet Rabbit",
+  "lore": "Variante adorable de The Bullet, inspirada en folklore lunar y velocidad. Su estilo de combate es cuerpo a cuerpo con evasion extrema.",
+  "statsDescription": [
+    { "label": "Variante" },
+    { "label": "Ágil" }
+  ],
+  "stats": [
+    { "label": "Health", "value": 70 },
+    { "label": "Accuracy", "value": 45 },
+    { "label": "Attack", "value": 90 },
+    { "label": "Reload Speed", "value": 50 },
+    { "label": "Versatility", "value": 60 },
+    { "label": "Supplies", "value": 40 },
+    { "label": "Defense", "value": 75 }
+  ],
+  "srcImgbg": "assets/img/Gungeoneers/thebulletrabbit02.png"
+},
+{
+  "id": 11,
+  "name": "The Bullet Shotgun Kin",
+  "lore": "Versión rebelde del clásico Shotgun Kin, empuñando una escopeta modificada. Defiende la autonomía de los Gundead en el Gungeon.",
+  "statsDescription": [
+    { "label": "Variante" },
+    { "label": "Explosivo" }
+  ],
+  "stats": [
+    { "label": "Health", "value": 80 },
+    { "label": "Accuracy", "value": 55 },
+    { "label": "Attack", "value": 85 },
+    { "label": "Reload Speed", "value": 65 },
+    { "label": "Versatility", "value": 50 },
+    { "label": "Supplies", "value": 50 },
+    { "label": "Defense", "value": 60 }
+  ],
+  "srcImgbg": "assets/img/Gungeoneers/thebulletshotgunkin02.png"
+},
+  {
+    "id": 12,
+    "name": "The Robot",
+    "lore": "Miembro del ejército killbot. Desobedeció la orden de eliminar a la última humana. Busca corregir su falla.",
+    "statsDescription": [
+      { "label": "Secreto" },
+      { "label": "Preciso" }
+    ],
+    "stats": [
+      { "label": "Health", "value": 60 },
+      { "label": "Accuracy", "value": 95 },
+      { "label": "Attack", "value": 70 },
+      { "label": "Reload Speed", "value": 85 },
+      { "label": "Versatility", "value": 75 },
+      { "label": "Supplies", "value": 50 },
+      { "label": "Defense", "value": 65 }
+    ],
+    "srcImgbg": "assets/img/Gungeoneers/therobot02.png"
+  },
+  {
+  "id": 13,
+  "name": "The Robot Past",
+  "lore": "Líder de los killbots en el pasado del Robot. Representa la dominación de las máquinas sobre la humanidad. Su combate final simboliza el rechazo del control mecánico.",
+  "statsDescription": [
+    { "label": "Pasado" },
+    { "label": "Jefe" }
+  ],
+  "stats": [
+    { "label": "Health", "value": 85 },
+    { "label": "Accuracy", "value": 88 },
+    { "label": "Attack", "value": 75 },
+    { "label": "Reload Speed", "value": 70 },
+    { "label": "Versatility", "value": 60 },
+    { "label": "Supplies", "value": 55 },
+    { "label": "Defense", "value": 90 }
+  ],
+  "srcImgbg": "assets/img/Gungeoneers/therobotpast02.png"
+},
+{
+  "id": 14,
+  "name": "The Paradox",
+  "lore": "Una anomalía del tiempo que existe fuera de la línea temporal del Gungeon. Cada run con Paradox comienza con equipamiento aleatorio. Busca romper el ciclo de repeticiones infinitas.",
+  "statsDescription": [
+    { "label": "Secreto" },
+    { "label": "Aleatorio" }
+  ],
+  "stats": [
+    { "label": "Health", "value": 85 },
+    { "label": "Accuracy", "value": 70 },
+    { "label": "Attack", "value": 80 },
+    { "label": "Reload Speed", "value": 75 },
+    { "label": "Versatility", "value": 95 },
+    { "label": "Supplies", "value": 70 },
+    { "label": "Defense", "value": 65 }
+  ],
+  "srcImgbg": "assets/img/Gungeoneers/theparadox02.png"
+},
+{
+  "id": 15,
+  "name": "The Cultist",
+  "lore": "Personaje exclusivo para modo cooperativo. En su pasado intenta sabotear a su compañero por celos, pero se redime y acepta que ambos merecen gloria.",
+  "statsDescription": [
+    { "label": "Coop" },
+    { "label": "Apoyo" }
+  ],
+  "stats": [
+    { "label": "Health", "value": 70 },
+    { "label": "Accuracy", "value": 60 },
+    { "label": "Attack", "value": 65 },
+    { "label": "Reload Speed", "value": 60 },
+    { "label": "Versatility", "value": 75 },
+    { "label": "Supplies", "value": 80 },
+    { "label": "Defense", "value": 55 }
+  ],
+  "srcImgbg": "assets/img/Gungeoneers/thecultist02.png"
+},
+{
+  "id": 16,
+  "name": "The Cultist The Apple",
+  "lore": "Variante temática de Cultist con estética retro y armas basadas en fruta explosiva. Representa el caos inocente y el humor del Gungeon.",
+  "statsDescription": [
+    { "label": "Variante" },
+    { "label": "Caótico" }
+  ],
+  "stats": [
+    { "label": "Health", "value": 70 },
+    { "label": "Accuracy", "value": 65 },
+    { "label": "Attack", "value": 60 },
+    { "label": "Reload Speed", "value": 65 },
+    { "label": "Versatility", "value": 70 },
+    { "label": "Supplies", "value": 60 },
+    { "label": "Defense", "value": 60 }
+  ],
+  "srcImgbg": "assets/img/Gungeoneers/thecultisttheapple02.png"
+},
+
+{
+  "id": 17,
+  "name": "The Gunslinger",
+  "lore": "Fundador del Gungeon. Su pasiva permite activar sinergias sin los objetos requeridos. Busca eliminar al Lich para romper el ciclo.",
+  "statsDescription": [
+    { "label": "Secreto" },
+    { "label": "Dominante" }
+  ],
+  "stats": [
+    { "label": "Health", "value": 90 },
+    { "label": "Accuracy", "value": 85 },
+    { "label": "Attack", "value": 95 },
+    { "label": "Reload Speed", "value": 85 },
+    { "label": "Versatility", "value": 95 },
+    { "label": "Supplies", "value": 90 },
+    { "label": "Defense", "value": 85 }
+  ],
+  "srcImgbg": "assets/img/Gungeoneers/thegunslinger02.png"
+}
+
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "name": "Ballot",
+        "stats": [
+        {
+            "label": "The Marine",
+            "value": "Su estilo preciso mejora aún más, reduciendo errores y maximizando la frescura para una activación eficiente de objetos."
+        },
+        {
+            "label": "Galactic Commander",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        },
+        {
+            "label": "The Convict",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        },
+        {
+            "label": "Rebel Leader",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        },
+        {
+            "label": "The Hunter",
+            "value": "Su estilo preciso mejora aún más, reduciendo errores y maximizando la frescura para una activación eficiente de objetos."
+        },
+        {
+            "label": "The Huntress",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        },
+        {
+            "label": "The Pilot",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        },
+        {
+            "label": "Wingman",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Meatbun",
+        "stats": [
+        {
+            "label": "The Marine",
+            "value": "Refuerza su precisión y cadencia, reduciendo daño innecesario y mejorando su eficacia de combate."
+        },
+        {
+            "label": "The Convict",
+            "value": "Aumenta su velocidad de recarga, lo que complementa su estilo impulsivo y agresivo."
+        }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Medkit",
+        "stats": [
+        {
+            "label": "The Marine",
+            "value": "Mantiene su frescura alta por más tiempo, lo que optimiza su defensa táctica."
+        },
+        {
+            "label": "The Convict",
+            "value": "Mejora su recuperación tras el daño, permitiéndole asumir riesgos sin penalización excesiva."
+        }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ration",
+        "stats": [
+        {
+            "label": "The Marine",
+            "value": "Potencia su resistencia, manteniéndolo en combate de forma constante y efectiva."
+        },
+        {
+            "label": "The Convict",
+            "value": "Le permite jugar de manera agresiva, sabiendo que puede regenerar frescura rápidamente."
+        }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Orange",
+        "stats": [
+        {
+            "label": "The Marine",
+            "value": "Maximiza su frescura, reduciendo cooldowns para uso táctico de ítems activos."
+        },
+        {
+            "label": "The Convict",
+            "value": "Le da energía extra para ejecutar combos rápidos y repetitivos en plena batalla."
+        }
+        ]
+    }
+]

@@ -1,0 +1,237 @@
+[
+    { "id": 1, 
+    "name": "The Marine",
+    "guns": [
+        {
+            "label": "Hexagun",
+            "overrides": {
+                "DPS": 30,
+                "Tiempo de recarga": 1.0
+            }
+        },
+        {
+            "label": "Slinger",
+            "overrides": {
+                "DPS": 90,
+                "Tiempo de recarga": 1.2
+            }
+        },
+        {
+            "label": "Particulator",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92,
+                "Munición total": 6
+            }
+        }
+    ]
+
+    },
+
+    { "id": 2, 
+    "name": "Galactic Commander",
+    "guns": [
+        {
+            "label": "Hexagun",
+            "overrides": {
+                "DPS": 30,
+                "Tiempo de recarga": 1.0
+            }
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "overrides": {
+                "DPS": 90,
+                "Tiempo de recarga": 1.2
+            }
+        },
+        {
+            "label": "Particulator",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92
+            }
+        }
+    ]
+    },
+
+    { "id": 3, 
+    "name": "The Convict",
+    "guns": [
+        {
+            "label": "Rusty Sidearm",
+            "overrides": {
+                "DPS": 30,
+                "Tiempo de recarga": 1.0,
+                "Alcance": 2222
+            }
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "overrides": {
+                "DPS": 90,
+                "Tiempo de recarga": 1.2
+            }
+        },
+        {
+            "label": "Particulator",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92
+            }
+        },
+        {
+            "label": "Rogue Special",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92
+            }
+        }
+    ]
+    },
+
+    { "id": 4, 
+    "name": "Rebel Leader",
+    "guns": [
+        {
+            "label": "Hexagun",
+            "overrides": {
+                "DPS": 30,
+                "Tiempo de recarga": 1.0
+            }
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "overrides": {
+                "DPS": 90,
+                "Tiempo de recarga": 1.2
+            }
+        },
+        {
+            "label": "Particulator",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92
+            }
+        }
+    ]
+    },
+
+    { "id": 1, 
+    "name": "The Hunter",
+    "guns": [
+        {
+            "label": "Hexagun",
+            "overrides": {
+                "DPS": 30,
+                "Tiempo de recarga": 1.0
+            }
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "overrides": {
+                "DPS": 90,
+                "Tiempo de recarga": 1.2
+            }
+        },
+        {
+            "label": "Particulator",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92,
+                "Munición total": 6
+            }
+        }
+    ]
+
+    },
+
+    { "id": 2, 
+    "name": "The Huntress",
+    "guns": [
+        {
+            "label": "Hexagun",
+            "overrides": {
+                "DPS": 30,
+                "Tiempo de recarga": 1.0
+            }
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "overrides": {
+                "DPS": 90,
+                "Tiempo de recarga": 1.2
+            }
+        },
+        {
+            "label": "Particulator",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92
+            }
+        }
+    ]
+    },
+
+    { "id": 3, 
+    "name": "The Pilot", 
+    "guns": [
+        {
+            "label": "Rusty Sidearm",
+            "overrides": {
+                "DPS": 30,
+                "Tiempo de recarga": 1.0,
+                "Alcance": 2222
+            }
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "overrides": {
+                "DPS": 90,
+                "Tiempo de recarga": 1.2
+            }
+        },
+        {
+            "label": "Particulator",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92
+            }
+        },
+        {
+            "label": "Rogue Special",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92
+            }
+        }
+    ]
+    },
+
+    { "id": 4, 
+    "name": "Wingman",
+    "guns": [
+        {
+            "label": "Hexagun",
+            "overrides": {
+                "DPS": 30,
+                "Tiempo de recarga": 1.0
+            }
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "overrides": {
+                "DPS": 90,
+                "Tiempo de recarga": 1.2
+            }
+        },
+        {
+            "label": "Particulator",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92
+            }
+        }
+    ]
+    }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "slug": "Home",
+    "title": "Home",
+    "description": "Explora cada rincón del Gungeon desde este portal principal. Aquí comienza tu viaje: personajes, armas, enemigos y secretos te esperan.",
+    "srcImg": "assets/img/logos-home.png"
+  },
+  {
+    "id": 2,
+    "slug": "gungeoneers",
+    "title": "The Gungeoneers",
+    "description": "Conoce a los valientes exploradores del Gungeon. Cada Gungeoneer tiene habilidades únicas, historias distintas y estilos de combate que definen tu partida.",
+    "srcImg": "assets/img/Sections/gungeoneers.png"
+  },
+  {
+    "id": 3,
+    "slug": "drops",
+    "title": "The Drops",
+    "description": "Descubre los objetos que caen en cada sala: munición, llaves, corazones y recompensas especiales que cambian el rumbo de cada run.",
+    "srcImg": "assets/img/Sections/drops.png"
+  },
+  {
+    "id": 4,
+    "slug": "items",
+    "title": "The Items",
+    "description": "Accesorios, pasivos y activables que transforman tu estrategia. Desde mejoras sutiles hasta poderes descomunales, cada ítem tiene su impacto.",
+    "srcImg": "assets/img/Sections/items.png"
+  },
+  {
+    "id": 5,
+    "slug": "enemies",
+    "title": "The Enemies",
+    "description": "Balas vivientes, jefes temibles y hordas caóticas: conoce a los enemigos del Gungeon, sus patrones y cómo enfrentarlos con eficacia.",
+    "srcImg": "assets/img/Sections/enemies.png"
+  },
+  {
+    "id": 6,
+    "slug": "guns",
+    "title": "The Guns",
+    "description": "Desde pistolas clásicas hasta armas que disparan abejas o letras del abecedario, el Gungeon ofrece un arsenal tan divertido como letal.",
+    "srcImg": "assets/img/Sections/guns.png"
+  }
+]
