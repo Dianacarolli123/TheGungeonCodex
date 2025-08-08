@@ -1,0 +1,31 @@
+.color-starts-elements{
+    color: var(--primary-100);
+}
+
+.bg-list{
+    background-color: var(--primary-600);
+    border-radius: var(--border-radius-lg) ;
+}
+
+.bg-first{
+    background-color: var(--primary-500);
+}
+
+.bg-second{
+    background-color: var(--primary-800);
+}
+
+.exteriors-top{
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0 ;
+}
+.exteriors-bottom{
+    border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg);
+}
+
+.text-sub-data{
+    color: var(--primary-1600);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+

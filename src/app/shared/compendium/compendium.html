@@ -1,0 +1,54 @@
+<div id="compendium">
+  <div class="container-xl mx-auto bg-compendium p-4 section">
+    <div class="row">
+      <!-- Nombre -->
+      <h4 class="fw-bold element">{{ compendiumData.name }}</h4>
+
+      <!-- Descripciones dinámicas (antes label01, label02) -->
+      <div class="d-flex align-items-center inner fw-semibold flex-wrap">
+        <p
+          *ngFor="let tag of compendiumData.statsDescription"
+          class="mb-0 py-1 px-3 me-3 label">
+          {{ tag.label }}
+        </p>
+      </div>
+
+      <!-- Lore -->
+      <div class="col-md-6">
+        <h5 class="color-subtitel-initial-overview element">Lore</h5>
+        <p class="w-75">
+          {{ compendiumData.lore }}
+        </p>
+      </div>
+
+      <!-- Stats + Imagen -->
+      <div class="col-md-6 position-relative" style="z-index: 1;">
+        <h5 class="fw-semibold element">Gungeon Compendium</h5>
+
+        <div
+          *ngFor="let stat of compendiumData.stats"
+          class="fw-semibold mb-2">
+          <div class="d-flex justify-content-between align-items-center inner">
+            <p class="mb-0">{{ stat.label }}</p>
+            <p class="mb-0">{{ stat.value || '–' }}/100</p>
+          </div>
+          <div class="progress mt-2 element" style="height: 0.5rem;">
+            <div
+              class="progress-bar"
+              [ngClass]="{
+                'bg-progress-bar': typeof stat.value === 'number' && stat.value <= 70,
+                'bg-progress-bar-second': typeof stat.value === 'number' && stat.value > 70
+              }"
+              [style.width.%]="typeof stat.value === 'number' ? stat.value : 0">
+            </div>
+          </div>
+        </div>
+
+        <img
+          [src]="compendiumData.srcImgbg"
+          [alt]="compendiumData.name"
+          class="position-absolute bg-img" />
+      </div>
+    </div>
+  </div>
+</div>

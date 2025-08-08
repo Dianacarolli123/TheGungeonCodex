@@ -1,0 +1,18 @@
+.gradient-title{
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.img-title {
+  height: 314px;
+  object-fit: contain; /* Asegura que la imagen se ajuste sin deformarse */
+  object-fit: cover;
+}
+
+.color-description-titel{
+    color: var(--primary-1600);
+}
+

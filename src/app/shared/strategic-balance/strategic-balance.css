@@ -1,0 +1,15 @@
+.bg-strategic-balance{
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--primary-1800);
+    box-shadow: var(--box-shadow-lg);
+}
+.color-subtitel{
+    color: var(--primary-1600);
+}
+canvas {
+  display: block;
+  width: 100% ;
+  margin: 0 auto;
+  background-color: transparent;
+  overflow: visible;
+}

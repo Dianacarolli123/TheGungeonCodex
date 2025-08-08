@@ -1,0 +1,226 @@
+<div id="recommended-items">
+  <div class="container-xl mx-auto p-4 section bg-recommended-items">
+    <div class="row">
+
+      <!-- 🔹 Ítems iniciales del Gungeoneer -->
+      <ng-container *ngIf="context === 'gungeoneer'">
+        <!-- Título siempre visible -->
+        <h4 class="element fw-semibold">
+          Ítems Iniciales de {{ currentGungeoneer }}
+        </h4>
+
+        <!-- 🔸 Aviso si no hay ítems -->
+        <div *ngIf="startingItems.length === 0" class="no-starting-items">
+          <p class="color-subtext mt-2 mb-0 fw-semibold py-2 px-3 text-center mb-4">
+            Este personaje no tiene ítem inicial
+          </p>
+        </div>
+
+        <!-- 🔹 Acordeón si hay ítems -->
+        <div class="accordion accordion-flush mb-4" id="accordionStarterItems" *ngIf="startingItems.length > 0">
+          <div
+            class="accordion-item element-items element"
+            *ngFor="let item of startingItems; let i = index"
+          >
+            <h2 class="accordion-header" [id]="'headingStarterItem' + i">
+              <button
+                class="accordion-button collapsed bg-transparent"
+                type="button"
+                data-bs-toggle="collapse"
+                [attr.data-bs-target]="'#collapseStarterItem' + i"
+                aria-expanded="false"
+                [attr.aria-controls]="'collapseStarterItem' + i"
+              >
+                <div class="w-100 d-flex justify-content-between align-items-center">
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="img-fluid img-items-recommended me-3 px-4"
+                      [src]="item.srcImg"
+                      [alt]="item.name"
+                    />
+                    <div class="d-flex flex-column">
+                      <p class="color-stat fw-semibold inner">{{ item.name }}</p>
+                      <div class="d-flex justify-content-center gap-2">
+                        <span
+                          class="color-stat fw-semibold label color-subtext py-1 px-2"
+                          *ngIf="item.stats?.[1]?.label"
+                        >
+                          {{ item.stats[1].label }}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="d-flex flex-column text-center me-4" *ngIf="item.stats?.[0]?.label">
+                      <p class="color-stat mb-0 color-subtitle">Tier</p>
+                      <p class="color-stat mb-0 color-subtext fw-semibold">
+                        {{ item.stats[0].label }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </h2>
+
+            <div
+              class="accordion-collapse collapse"
+              [id]="'collapseStarterItem' + i"
+              [attr.aria-labelledby]="'headingStarterItem' + i"
+              data-bs-parent="#accordionStarterItems"
+            >
+              <div class="accordion-body p-4">
+                <div class="row g-4 text-start">
+
+                  <!-- 🌀 Mensaje especial para ítem aleatorio -->
+                  <div class="col-12" *ngIf="item.name === 'Randomized'">
+                    <div class="color-subtext text-center fw-semibold py-2 px-3 mb-0">
+                      Este personaje comienza con 1 ítem aleatorio. Su tipo varía en cada partida.
+                    </div>
+                  </div>
+
+                  <!-- Detalles del ítem -->
+                  <div class="col-12" *ngIf="item.statsItems?.length">
+                    <div class="d-flex flex-column">
+                      <p class="color-stat fw-semibold inner color-subtitle mb-2">
+                        Detalles del ítem inicial:
+                      </p>
+                      <div class="d-flex flex-column">
+                        <p
+                          class="color-stat fw-semibold py-1 px-2 color-subtitle"
+                          *ngFor="let stat of item.statsItems"
+                        >
+                          {{ stat.label }}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+
+      <!-- 🔹 Título general -->
+      <h4 class="element fw-semibold">
+        <ng-container [ngSwitch]="context">
+          <ng-container *ngSwitchCase="'gun'">
+            Ítems que se potencian con {{ currentGun }}
+          </ng-container>
+          <ng-container *ngSwitchCase="'gungeoneer'">
+            Ítems potenciados por {{ currentGungeoneer }}
+          </ng-container>
+          <ng-container *ngIf="context === 'drop' || context === 'item'">
+            Ítems recomendados junto a {{ context === 'drop' ? currentDrop : currentItem }}
+          </ng-container>
+        </ng-container>
+      </h4>
+
+      <!-- 🔹 Lista de ítems recomendados -->
+      <ng-container *ngIf="recommendedItems.length > 0; else noItemsFound">
+        <div class="accordion accordion-flush" id="accordionFlushItems">
+          <div
+            class="accordion-item element-items element"
+            *ngFor="let item of recommendedItems; let i = index"
+          >
+            <h2 class="accordion-header" [id]="'headingItems' + i">
+              <button
+                class="accordion-button collapsed bg-transparent"
+                type="button"
+                data-bs-toggle="collapse"
+                [attr.data-bs-target]="'#collapseItems' + i"
+                aria-expanded="false"
+                [attr.aria-controls]="'collapseItems' + i"
+              >
+                <div class="w-100 d-flex justify-content-between align-items-center">
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="img-fluid img-items-recommended me-3 px-4"
+                      [src]="item.srcImg"
+                      [alt]="item.name"
+                    />
+                    <div class="d-flex flex-column">
+                      <p class="color-stat fw-semibold inner">{{ item.name }}</p>
+                      <div class="d-flex justify-content-center gap-2">
+                        <span
+                          class="color-stat fw-semibold label color-subtext py-1 px-2"
+                          *ngIf="item.stats?.[1]?.label"
+                        >
+                          {{ item.stats[1].label }}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="d-flex flex-column text-center me-4" *ngIf="item.stats?.[0]?.label">
+                      <p class="color-stat mb-0 color-subtitle">Tier</p>
+                      <p class="color-stat mb-0 color-subtext fw-semibold">
+                        {{ item.stats[0].label }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </h2>
+
+            <div
+              class="accordion-collapse collapse"
+              [id]="'collapseItems' + i"
+              [attr.aria-labelledby]="'headingItems' + i"
+              data-bs-parent="#accordionFlushItems"
+            >
+              <div class="accordion-body p-4">
+                <div class="row g-4 text-start">
+
+                  <!-- Efecto de sinergia -->
+                  <div class="col-12" *ngIf="item.synergyEffect">
+                    <div class="d-flex flex-column">
+                      <p class="color-stat fw-semibold label color-subtext py-1 px-2">
+                        {{ item.synergyEffect }}
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Detalles descriptivos -->
+                  <div class="col-12" *ngIf="item.statsItems?.length">
+                    <div class="d-flex flex-column">
+                      <p class="color-stat fw-semibold inner color-subtitle">Detalles del ítem:</p>
+                      <div class="d-flex flex-column">
+                        <p
+                          class="color-stat fw-semibold py-1 px-2 color-subtitle"
+                          *ngFor="let stat of item.statsItems"
+                        >
+                          {{ stat.label }}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Bonus técnicos -->
+                  <div class="col-12" *ngFor="let bonus of item.stats?.slice(4)">
+                    <div class="d-flex flex-column">
+                      <p class="color-stat mb-0 fw-semibold py-1 px-2 color-subtitle">
+                        {{ bonus.label }}
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+
+      <ng-template #noItemsFound>
+      <p class="color-subtext mt-3 mb-0 fw-semibold py-2 px-3 text-center">
+        {{ currentGungeoneer === 'The Paradox' ?
+          'No se puede recomendar un ítem porque The Paradox comienza con equipo aleatorio.' :
+          'Este personaje no usa ítems recomendables.' }}
+      </p>
+    </ng-template>
+
+    </div>
+  </div>
+</div>

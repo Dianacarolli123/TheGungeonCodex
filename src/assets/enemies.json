@@ -1,0 +1,1682 @@
+[
+    {
+    "id": 1,
+    "name": "Bullet Kin",
+    "description": "Bullet Kin es uno de los enemigos más comunes en Enter the Gungeon. Actúa como soldado base, disparando balas lentas con una pistola no obtenible.",
+    "descriptionOverview": "Aunque parece inofensivo, su presencia constante y agrupada puede entorpecer cualquier estrategia. Es ideal para practicar esquivas y calibrar el ritmo del Gungeon en sus primeros pisos. Además, sirve como punto de partida para evaluar el daño real de armas de bajo nivel.",
+    "srcImg": "assets/img/Enemies/bulletkin01.png",
+    "stats": [
+        { "label": "Se mueve lentamente y dispara con baja frecuencia." },
+        { "label": "No utiliza magia ni habilidades especiales." },
+        { "label": "Aparece en los primeros pisos como amenaza menor." },
+        { "label": "El arma que porta no puede obtenerse como drop; es única de enemigos." }
+    ],
+    "statsGuns": [
+        { "label": "Pistola estándar (no obtenible); proyectiles simples y esporádicos." }
+    ]
+    },
+    {
+    "id": 2,
+    "name": "Bandana Bullet Kin",
+    "description": "Enemigo estilizado del Bullet Kin. Dispara más rápido y tiene una actitud ligeramente más agresiva, aunque sigue sin usar magia.",
+    "descriptionOverview": "Su bandana roja lo distingue fácilmente en grupos. Aparece como variante visual y táctica, útil para observar cómo el ritmo de disparo cambia el nivel de amenaza. Aunque no representa un gran peligro individual, puede interrumpir rutas seguras si no se elimina a tiempo.",
+    "srcImg": "assets/img/Enemies/bandanabulletkin01.png",
+    "stats": [
+        { "label": "Dispara con cadencia superior a la versión básica." },
+        { "label": "No utiliza habilidades especiales ni magia." },
+        { "label": "Se posiciona en salas con múltiples balines." },
+        { "label": "El arma que utiliza no puede obtenerse por el jugador." }
+    ],
+    "statsGuns": [
+        { "label": "Pistola modificada (no obtenible); ráfagas más frecuentes." }
+    ]
+    },
+    {
+    "id": 3,
+    "name": "Veteran Bullet Kin",
+    "description": "Kin experimentado que dispara ráfagas organizadas. Tiene mejor puntería y movilidad, y responde activamente al posicionamiento del jugador.",
+    "descriptionOverview": "Representa un salto en dificultad dentro del grupo de balines. Su ritmo de disparo puede bloquear rutas y forzar esquivas precisas, sobre todo en salas con múltiples enemigos. Es ideal para evaluar armas con control de área o daño sostenido.",
+    "srcImg": "assets/img/Enemies/veteranbulletkin01.png",
+    "stats": [
+        { "label": "Dispara ráfagas tácticas con mayor velocidad y precisión." },
+        { "label": "Actúa estratégicamente y puede coordinar ataques en grupo." },
+        { "label": "No usa hechizos ni mecánicas mágicas." },
+        { "label": "El rifle que porta no está disponible para el jugador." }
+    ],
+    "statsGuns": [
+        { "label": "Rifle táctico (no obtenible); disparos rápidos y dirigidos." }
+    ]
+    },
+    {
+    "id": 4,
+    "name": "Tanker",
+    "description": "Entidad blindada que lanza fuego a través de ignición interna. No utiliza armas físicas y ataca con magia elemental continua.",
+    "descriptionOverview": "Su ataque cubre áreas amplias y puede dificultar la movilidad si no se controla. Ideal para probar armas a distancia o de alto daño, ya que su acercamiento lento permite preparar estrategias.",
+    "srcImg": "assets/img/Enemies/tanker01.png",
+    "stats": [
+        { "label": "Dispara fuego mediante ignición mágica continua." },
+        { "label": "No porta armas físicas ni deja drops obtenibles." },
+        { "label": "Su tamaño y fuego persistente dificultan el reposicionamiento." },
+        { "label": "Ataca con magia elemental tipo fuego; no usa armamento convencional." }
+    ],
+    "statsGuns": [
+        { "label": "No usa arma convencional; lanza fuego mediante ignición mágica." }
+    ]
+    },
+    {
+    "id": 5,
+    "name": "Minelet",
+    "description": "Entidad explosiva que se activa al detectar al jugador. No dispara ni usa armas físicas, su daño proviene de detonación mágica directa.",
+    "descriptionOverview": "Funciona como trampa móvil. Ideal para mapear zonas de riesgo inmediato o entrenar reflejos de evasión. No deja recompensas, pero puede desbalancear una sala si aparece junto a otros enemigos.",
+    "srcImg": "assets/img/Enemies/minelet01.png",
+    "stats": [
+        { "label": "Se activa por proximidad y detona mágicamente sin previo aviso." },
+        { "label": "No utiliza armas físicas ni proyectiles." },
+        { "label": "No es comerciable ni dropea ítems." },
+        { "label": "Opera con magia explosiva activada por cercanía." }
+    ],
+    "statsGuns": [
+        { "label": "No usa arma; detona con magia explosiva al detectar al jugador." }
+    ]
+    },
+    {
+    "id": 6,
+    "name": "Cardinal",
+    "description": "Enemigo volador que lanza proyectiles mágicos desde la distancia. No porta arma física y sus ataques provienen de poder arcano.",
+    "descriptionOverview": "Actúa como soporte ofensivo en salas con múltiples enemigos. Su capacidad de mantenerse en vuelo y disparar sin interrupción puede desestabilizar enfrentamientos prolongados. No deja recompensas y no se puede replicar su tipo de ataque.",
+    "srcImg": "assets/img/Enemies/cardinal01.png",
+    "stats": [
+        { "label": "Dispara proyectiles arcanos flotando sobre el jugador." },
+        { "label": "No utiliza armas físicas; su ataque es mágico." },
+        { "label": "No droppea recompensas ni posee comerciabilidad." },
+        { "label": "El poder que usa no está vinculado a ninguna arma obtenible." }
+    ],
+    "statsGuns": [
+        { "label": "No usa arma; lanza proyectiles mediante magia aérea." }
+    ]
+    },
+    {
+    "id": 7,
+    "name": "Shroomer",
+    "description": "Enemigo con cuerpo de hongo que dispara esporas tóxicas. Su ataque es mágico y no proviene de un arma tradicional.",
+    "descriptionOverview": "Al combinar disparos con veneno ambiental, puede saturar zonas seguras rápidamente. Ideal para evaluar armas que limpian espacios o neutralizan efectos de estado. No deja drops útiles y no se puede replicar su efecto como arma.",
+    "srcImg": "assets/img/Enemies/shroomer01.png",
+    "stats": [
+        { "label": "Dispara esporas tóxicas que cubren pequeñas áreas." },
+        { "label": "No usa armas físicas, solo magia con efecto de estado." },
+        { "label": "No posee valor comercial ni drop obtenible." },
+        { "label": "El ataque no puede conseguirse como arma para el Gungeoneer." }
+    ],
+    "statsGuns": [
+        { "label": "No usa arma; lanza esporas venenosas mediante magia natural." }
+    ]
+    },
+    {
+    "id": 8,
+    "name": "Ashen Bullet Kin",
+    "description": "Versión carbonizada del Bullet Kin. Dispara con menor cadencia pero mayor daño, usando un arma interna no obtenible.",
+    "descriptionOverview": "Aparece en pisos avanzados como refuerzo de enemigos básicos. Su presencia indica un nivel de amenaza más serio, aunque su ataque sigue siendo predecible. Puede servir como benchmark de daño base si se compara con variantes anteriores.",
+    "srcImg": "assets/img/Enemies/ashenbulletkin01.png",
+    "stats": [
+        { "label": "Dispara balas lentas pero más dañinas que las versiones normales." },
+        { "label": "No utiliza magia; su arma está integrada y no obtenible." },
+        { "label": "Suele aparecer en zonas con enemigos reforzados." },
+        { "label": "La pistola que utiliza no forma parte del loot del jugador." }
+    ],
+    "statsGuns": [
+        { "label": "Pistola quemada (no obtenible); proyectiles lentos pero más potentes." }
+    ]
+    },
+    {
+    "id": 9,
+    "name": "Mutant Bullet Kin",
+    "description": "Balín mutado con movimientos erráticos y disparos desorganizados. Conserva patrones básicos, pero actúa de forma impredecible.",
+    "descriptionOverview": "Representa una amenaza caótica en salas pequeñas. Su disparo impredecible lo convierte en referencia para probar armas con control de trayectoria o dispersión. No ofrece recompensas y el arma que usa no tiene equivalente en el arsenal del jugador.",
+    "srcImg": "assets/img/Enemies/mutantbulletkin01.png",
+    "stats": [
+        { "label": "Dispara balas de forma errática en múltiples direcciones." },
+        { "label": "No utiliza magia, pero su ataque es desordenado y constante." },
+        { "label": "Aparece como refuerzo en salas caóticas o de mutación." },
+        { "label": "El arma que utiliza no es replicable por el jugador." }
+    ],
+    "statsGuns": [
+        { "label": "Pistola mutada (no obtenible); proyectiles dispersos y sin patrón fijo." }
+    ]
+    },
+    {
+    "id": 10,
+    "name": "Fallen Bullet Kin",
+    "description": "Balín corrompido que dispara proyectiles oscuros con efecto sombrío. No porta arma física; su ataque proviene de magia corrupta.",
+    "descriptionOverview": "Su aparición suele ir acompañada de enemigos con mecánicas oscuras o invocaciones. Ideal para analizar sinergias mágicas enemigas. No deja recompensas y su tipo de ataque no está disponible para el jugador.",
+    "srcImg": "assets/img/Enemies/fallenbulletkin01.png",
+    "stats": [
+        { "label": "Dispara proyectiles sombríos sin utilizar armamento físico." },
+        { "label": "Opera con magia oscura; no posee arma obtenible." },
+        { "label": "Aparece en pisos temáticos con enemigos corruptos o místicos." },
+        { "label": "No aporta drops ni armas equivalentes para el jugador." }
+    ],
+    "statsGuns": [
+        { "label": "No usa arma; ataca con magia corrupta tipo sombra." }
+    ]
+    },
+{
+  "id": 11,
+  "name": "Chance Kin",
+  "description": "Enemigo errático que lanza proyectiles aleatorios. Su patrón de disparo varía cada encuentro y no está vinculado a ninguna arma obtenible.",
+  "descriptionOverview": "Ideal para representar comportamientos impredecibles en el Gungeon. Su naturaleza caótica dificulta esquivas planificadas y puede sorprender en salas con trayectorias múltiples. No ofrece recompensas consistentes.",
+  "srcImg": "assets/img/Enemies/chancekin01.png",
+  "stats": [
+    { "label": "Dispara proyectiles al azar con cadencia variable." },
+    { "label": "No utiliza magia, pero su patrón es impredecible." },
+    { "label": "No aporta drops ni está asociado a loot comercializable." },
+    { "label": "Su ataque no proviene de armas obtenibles." }
+  ],
+  "statsGuns": [
+    { "label": "No usa arma definida; dispara proyectiles aleatorios sin patrón constante." }
+  ]
+},
+{
+  "id": 12,
+  "name": "Keybullet Kin",
+  "description": "Balín especial con forma de llave que aparece ocasionalmente en habitaciones. No combate; su propósito está vinculado al sistema de llaves y cofres.",
+  "descriptionOverview": "No representa amenaza directa, pero puede huir si no se elimina rápidamente. Al derrotarlo, puede otorgar una llave. Ideal para registrar interacciones mecánicas en lugar de combates.",
+  "srcImg": "assets/img/Enemies/keybulletkin01.png",
+  "stats": [
+    { "label": "No ataca; se desplaza con rapidez intentando escapar." },
+    { "label": "Puede dejar una llave como recompensa al morir." },
+    { "label": "No usa armas ni tiene mecánicas ofensivas." },
+    { "label": "No se puede replicar como personaje ni dropea armas." }
+  ],
+  "statsGuns": [
+    { "label": "No porta arma; su comportamiento está ligado a objetos clave." }
+  ]
+},
+{
+  "id": 13,
+  "name": "Confirmed",
+  "description": "Balín de elite que dispara ráfagas desde una pistola especial decorada con estampado militar. Su arma es exclusiva y no obtenible.",
+  "descriptionOverview": "Aparece en zonas de refuerzo táctico y emboscadas. Su precisión y cadencia lo hacen más peligroso que otros Kin. Excelente para testear evasión en salas estrechas con disparos en ráfaga.",
+  "srcImg": "assets/img/Enemies/confirmed01.png",
+  "stats": [
+    { "label": "Dispara ráfagas rápidas con buena puntería." },
+    { "label": "Actúa con disciplina táctica frente al jugador." },
+    { "label": "No posee habilidades mágicas ni efectos especiales." },
+    { "label": "El arma decorada que usa no está disponible como loot." }
+  ],
+  "statsGuns": [
+    { "label": "Pistola táctica decorada (no obtenible); dispara en ráfagas cortas." }
+  ]
+},
+{
+  "id": 14,
+  "name": "Red Shotgun Kin",
+  "description": "Balín rojo que porta una escopeta estándar. Su patrón de disparo cubre áreas amplias con dispersión media.",
+  "descriptionOverview": "Útil para representar amenazas con efecto de área. Su escopeta es una versión obtenible en cofres, lo que permite al jugador replicar su mecánica ofensiva. Ideal para comparar rendimiento ofensivo en combate cercano.",
+  "srcImg": "assets/img/Enemies/redshotgunkin01.png",
+  "stats": [
+    { "label": "Dispara proyectiles con dispersión horizontal amplia." },
+    { "label": "Se posiciona cerca del jugador para maximizar impacto." },
+    { "label": "No utiliza magia; combate con arma convencional." },
+    { "label": "El arma que porta sí puede obtenerse por el jugador." }
+  ],
+  "statsGuns": [
+    { "label": "Shotgun" }
+  ]
+},
+{
+  "id": 15,
+  "name": "Blue Shotgun Kin",
+  "description": "Balín azul que dispara proyectiles en abanico con una escopeta especial. Tiene mejor cobertura, pero menor movilidad.",
+  "descriptionOverview": "Aparece junto a grupos tácticos para cubrir pasillos o bloquear zonas de esquiva. Su escopeta también está disponible como arma obtenible, lo que permite al jugador imitar su estilo de combate.",
+  "srcImg": "assets/img/Enemies/blueshotgunkin01.png",
+  "stats": [
+    { "label": "Dispara abanicos de proyectiles con buen alcance lateral." },
+    { "label": "Actúa como barrera ofensiva en espacios angostos." },
+    { "label": "No posee habilidades mágicas ni efectos de estado." },
+    { "label": "El arma que utiliza está disponible para el jugador." }
+  ],
+  "statsGuns": [
+    { "label": "Shotgun" }
+  ]
+},
+{
+  "id": 16,
+  "name": "Veteran Shotgun Kin",
+  "description": "Balín táctico que porta una escopeta modificada y dispara con precisión mejorada. Actúa con estrategia y puntería superior a otros Shotgun Kin.",
+  "descriptionOverview": "Suele aparecer en formaciones defensivas o como líder de sala. Su disparo en abanico cubre espacios amplios, lo que lo vuelve peligroso en pasillos. Ideal para testear armas de control lateral o explosivo.",
+  "srcImg": "assets/img/Enemies/veteranshotgunkin01.png",
+  "stats": [
+    { "label": "Dispara con precisión mejorada y dispersión táctica." },
+    { "label": "Tiene mayor velocidad de reacción que otros Shotgun Kin." },
+    { "label": "No usa magia; combate con arma convencional." },
+    { "label": "El arma que utiliza no puede obtenerse por el jugador." }
+  ],
+  "statsGuns": [
+    { "label": "Escopeta táctica (no obtenible); dispersión controlada y puntería alta." }
+  ]
+},
+{
+  "id": 17,
+  "name": "Mutant Shotgun Kin",
+  "description": "Balín deformado que dispara de forma errática con una escopeta alterada. Su patrón es impredecible y no está asociado a armas obtenibles.",
+  "descriptionOverview": "Actúa como disruptor caótico en combate. Su presencia obliga a esquivas no convencionales y reposicionamiento constante. No tiene valor comercial ni deja recompensas claras.",
+  "srcImg": "assets/img/Enemies/mutantshotgunkin01.png",
+  "stats": [
+    { "label": "Dispara en patrones desordenados y erráticos." },
+    { "label": "Se mueve de forma impredecible, dificultando esquivas." },
+    { "label": "No utiliza hechizos ni habilidades mágicas." },
+    { "label": "El arma mutada no está disponible como loot." }
+  ],
+  "statsGuns": [
+    { "label": "Escopeta mutada (no obtenible); disparos erráticos y sin patrón definido." }
+  ]
+},
+{
+  "id": 18,
+  "name": "Executioner",
+  "description": "Entidad pesada que lanza disparos lentos pero de gran tamaño. Su arma es interna y mágica; no puede obtenerse por el jugador.",
+  "descriptionOverview": "Opera como unidad de castigo en salas avanzadas. Su disparo cubre gran parte del espacio y puede eliminar rutas de escape. Ideal para probar armas de alta movilidad o efecto de dispersión.",
+  "srcImg": "assets/img/Enemies/executioner01.png",
+  "stats": [
+    { "label": "Dispara balas grandes y lentas que ocupan gran espacio visual." },
+    { "label": "No usa escopeta física; su ataque proviene de magia interna." },
+    { "label": "Aparece en pisos altos como refuerzo de enemigos élite." },
+    { "label": "Su ataque no está vinculado a ninguna arma obtenible." }
+  ],
+  "statsGuns": [
+    { "label": "No usa arma; dispara proyectiles grandes mediante magia ofensiva interna." }
+  ]
+},
+{
+  "id": 19,
+  "name": "Ashen Shotgun Kin",
+  "description": "Versión carbonizada del Shotgun Kin. Dispara con menor frecuencia pero proyectiles más potentes. Usa un arma no obtenible.",
+  "descriptionOverview": "Refuerza zonas críticas en pisos avanzados. Su dispersión más agresiva obliga a reaccionar con precisión. Útil para simular combates de rango medio bajo presión constante.",
+  "srcImg": "assets/img/Enemies/ashenshotgunkin01.png",
+  "stats": [
+    { "label": "Dispara proyectiles con mayor daño, pero menor cadencia." },
+    { "label": "No usa magia, pero actúa con agresividad controlada." },
+    { "label": "Aparece junto a enemigos reforzados en salas temáticas." },
+    { "label": "La escopeta quemada no está disponible en cofres ni tiendas." }
+  ],
+  "statsGuns": [
+    { "label": "Escopeta quemada (no obtenible); daño superior en abanico lento." }
+  ]
+},
+{
+  "id": 20,
+  "name": "Shotgrub",
+  "description": "Criatura tipo babosa que dispara proyectiles venenosos en abanico. Su ataque es mágico y no está asociado a armas convencionales.",
+  "descriptionOverview": "Útil para bloquear áreas pequeñas con efectos tóxicos. Su daño persistente afecta rutas de escape y puede forzar al jugador a cambiar de estrategia. No dropea objetos ni armas obtenibles.",
+  "srcImg": "assets/img/Enemies/shotgrub01.png",
+  "stats": [
+    { "label": "Dispara proyectiles verdes con veneno en patrón disperso." },
+    { "label": "Se mueve lento pero cubre espacio ambiental con efectos mágicos." },
+    { "label": "No tiene valor comercial ni deja recompensas." },
+    { "label": "Su ataque se basa en magia tóxica; no usa arma física." }
+  ],
+  "statsGuns": [
+    { "label": "No usa arma; lanza proyectiles venenosos mediante magia innata." }
+  ]
+},
+{
+  "id": 21,
+  "name": "Sniper Shell",
+  "description": "Cartucho élite que dispara con precisión desde larga distancia. Usa un rifle no obtenible y permanece oculto hasta que apunta.",
+  "descriptionOverview": "Su comportamiento obliga a mantener cobertura y detectar líneas de tiro. Ideal para testear armas con cancelación de proyectiles o rastreo de objetivos.",
+  "srcImg": "assets/img/Enemies/snipershell01.png",
+  "stats": [
+    { "label": "Dispara con precisión desde la distancia, tras fijar objetivo." },
+    { "label": "Permanece inmóvil y oculto hasta activar su disparo." },
+    { "label": "No usa magia; su ataque es balístico puro." },
+    { "label": "El rifle de francotirador no puede obtenerse por el jugador." }
+  ],
+  "statsGuns": [
+    { "label": "Rifle de francotirador (no obtenible); alto daño en disparo único." }
+  ]
+},
+{
+  "id": 22,
+  "name": "Professional",
+  "description": "Enemigo sigiloso que dispara balas silenciadas desde zonas ocultas. Usa magia para esconderse, y su arma no está disponible en el juego.",
+  "descriptionOverview": "Afecta el posicionamiento táctico del jugador. Su presencia silenciosa altera patrones de esquiva y exige atención constante a zonas sin visibilidad.",
+  "srcImg": "assets/img/Enemies/professional01.png",
+  "stats": [
+    { "label": "Dispara balas silenciadas sin activar alertas visuales." },
+    { "label": "Se oculta parcialmente mediante magia sombría." },
+    { "label": "Ataca desde esquinas y zonas de baja exposición." },
+    { "label": "Su arma mágica no puede ser obtenida." }
+  ],
+  "statsGuns": [
+    { "label": "Pistola silenciada (no obtenible); disparo sigiloso de corto alcance." }
+  ]
+},
+{
+  "id": 23,
+  "name": "Gummy",
+  "description": "Entidad gelatinosa que rebota al recibir daño y lanza pequeños proyectiles esporádicos. Su ataque es mágico y no tiene arma física.",
+  "descriptionOverview": "Introduce caos controlado en salas cerradas. Sus rebotes impredecibles sirven como benchmark de física, colisión y control ambiental.",
+  "srcImg": "assets/img/Enemies/gummy01.png",
+  "stats": [
+    { "label": "Rebota al recibir impactos, alterando su trayectoria constantemente." },
+    { "label": "Lanza pequeños proyectiles en patrones aleatorios." },
+    { "label": "No tiene arma; su ataque es generado por magia interna." },
+    { "label": "No dropea ni comercializa ningún objeto." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; disparo mágico esporádico causado por rebote." }
+  ]
+},
+{
+  "id": 24,
+  "name": "Skullet",
+  "description": "Cráneo animado que dispara proyectiles de fuego desde su boca. No porta arma física; su ataque es mágico y constante.",
+  "descriptionOverview": "Ideal para simular zonas de fuego continuo. Su patrón de ataque obliga a rotación precisa del jugador y uso de escudos o inmunidad.",
+  "srcImg": "assets/img/Enemies/skullet01.png",
+  "stats": [
+    { "label": "Dispara fuego mágico desde su boca en ráfagas lineales." },
+    { "label": "No porta arma física ni equipo comercializable." },
+    { "label": "Activa disparo continuo sin pausa entre ciclos." },
+    { "label": "Solo aparece en salas temáticas o zonas especiales." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; utiliza fuego mágico innato como medio ofensivo." }
+  ]
+},
+{
+  "id": 25,
+  "name": "Skullmet",
+  "description": "Cabeza flotante blindada que dispara balas de energía a ritmo intermitente. No usa armas obtenibles, y su ataque es mágico.",
+  "descriptionOverview": "Opera como núcleo de presión en salas con movilidad limitada. Su ritmo de disparo exige atención temporal y cálculo de espacios.",
+  "srcImg": "assets/img/Enemies/skullmet01.png",
+  "stats": [
+    { "label": "Dispara balas de energía con ritmo entre pausas largas." },
+    { "label": "Flota en el aire con trayectoria controlada y lenta." },
+    { "label": "No usa escopeta ni arma física; su ataque es mágico." },
+    { "label": "No tiene valor comercial ni deja recompensas." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; balas mágicas intermitentes desde núcleo energético." }
+  ]
+},
+{
+  "id": 26,
+  "name": "Spent",
+  "description": "Casquillo vacío animado que carga contra el jugador sin disparar. No porta armas ni utiliza magia; su daño es por colisión directa.",
+  "descriptionOverview": "Ideal para testear mecánicas de empuje, colisión y control físico. Su comportamiento simple permite evaluar escenarios de contacto sin proyectiles.",
+  "srcImg": "assets/img/Enemies/spent01.png",
+  "stats": [
+    { "label": "No dispara ni usa armas; embiste al jugador directamente." },
+    { "label": "No posee magia ni efectos secundarios." },
+    { "label": "Actúa como obstáculo móvil de colisión." },
+    { "label": "No dropea recompensas ni tiene valor comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque físico mediante embestida." }
+  ]
+},
+{
+  "id": 27,
+  "name": "Creech",
+  "description": "Bicho flotante que dispara esferas negras desde su núcleo. No usa arma convencional y su ataque es mágico.",
+  "descriptionOverview": "Útil para simular amenazas aéreas con ritmo pausado. Sus disparos lentos permiten estudiar trayectoria y detección de proyectiles mágicos.",
+  "srcImg": "assets/img/Enemies/creech01.png",
+  "stats": [
+    { "label": "Lanza esferas oscuras con trayectoria flotante y lenta." },
+    { "label": "No usa magia ofensiva con efectos secundarios." },
+    { "label": "Flota y se desplaza suavemente por la sala." },
+    { "label": "No tiene arma obtenible ni valor comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles mágicos esféricos desde cuerpo flotante." }
+  ]
+},
+{
+  "id": 28,
+  "name": "Hollowpoint",
+  "description": "Fantasma balístico que dispara proyectiles transparentes a alta velocidad. Su ataque es mágico y no está vinculado a armas obtenibles.",
+  "descriptionOverview": "Ideal para testear respuesta visual y reconocimiento de proyectiles sutiles. Útil en pruebas de esquiva reactiva o canceladores temporales.",
+  "srcImg": "assets/img/Enemies/hollowpoint01.png",
+  "stats": [
+    { "label": "Dispara proyectiles espectrales semitransparentes con velocidad alta." },
+    { "label": "Flota y cambia trayectoria mientras ataca." },
+    { "label": "No porta arma; su ataque es mágico y directo." },
+    { "label": "No deja loot ni puede ser comercializado." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles fantasmales generados por energía mágica." }
+  ]
+},
+{
+  "id": 29,
+  "name": "Bombshee",
+  "description": "Criatura explosiva que lanza proyectiles de área desde su núcleo. No porta arma; su ataque es de origen mágico explosivo.",
+  "descriptionOverview": "Sirve para testear daño por área y evasión radial. Ideal en simulaciones de explosiones controladas y espacios cerrados.",
+  "srcImg": "assets/img/Enemies/bombshee01.png",
+  "stats": [
+    { "label": "Dispara esferas explosivas que generan daño radial." },
+    { "label": "Se mantiene flotando, con trayectoria errática." },
+    { "label": "No usa arma física; su explosión es mágica y constante." },
+    { "label": "No es obtenible ni deja recompensas." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque explosivo mágico con daño de área." }
+  ]
+},
+{
+  "id": 30,
+  "name": "Rubber Kin",
+  "description": "Enemigo de goma que rebota constantemente y no dispara. No utiliza armas ni magia; su ataque se basa en contacto físico.",
+  "descriptionOverview": "Perfecto para evaluar físicas de rebote, colisión indirecta y control de trayectorias. Su comportamiento no ofensivo permite pruebas de movilidad del jugador.",
+  "srcImg": "assets/img/Enemies/rubberkin01.png",
+  "stats": [
+    { "label": "Rebota en paredes y superficies sin emitir proyectiles." },
+    { "label": "No usa armas ni realiza ataques mágicos." },
+    { "label": "Sirve como obstáculo móvil que genera presión ambiental." },
+    { "label": "No entrega loot ni tiene función comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; su única mecánica es el rebote físico." }
+  ]
+},
+{
+  "id": 31,
+  "name": "Tazie",
+  "description": "Criatura eléctrica flotante que dispara rayos de energía al contacto. Su ataque es mágico y no está vinculado a armas físicas.",
+  "descriptionOverview": "Introduce mecánicas de proximidad con daño eléctrico. Útil para evaluar inmunidad elemental y estrategias de evasión en espacios cerrados.",
+  "srcImg": "assets/img/Enemies/tazie01.png",
+  "stats": [
+    { "label": "Lanza rayos eléctricos al acercarse al jugador." },
+    { "label": "Se desplaza con trayectoria errática, dificultando predicción." },
+    { "label": "No porta arma física; su ataque es mágico e interno." },
+    { "label": "No deja loot ni puede ser comercializada." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; rayos eléctricos generados por magia innata." }
+  ]
+},
+{
+  "id": 32,
+  "name": "King Bullat",
+  "description": "Monarca balístico que comanda a los Bullats. Su ataque es físico mediante embestida directa, sin armas ni magia.",
+  "descriptionOverview": "Funciona como jefe de zona con patrón de movimiento amplio. Ideal para probar daño por colisión y estrategias de control de masas.",
+  "srcImg": "assets/img/Enemies/kingbullat01.png",
+  "stats": [
+    { "label": "Embiste al jugador con fuerza superior a los Bullats normales." },
+    { "label": "No realiza disparos ni usa proyectiles." },
+    { "label": "No utiliza magia ofensiva ni defensiva." },
+    { "label": "No dropea armas ni ítems comerciales." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque físico por colisión directa." }
+  ]
+},
+{
+  "id": 33,
+  "name": "Pinhead",
+  "description": "Entidad con cabeza afilada que lanza proyectiles puntiagudos en ráfagas. Su sistema de ataque es interno, no obtenible y sin magia.",
+  "descriptionOverview": "Su ráfaga rápida introduce presión constante en espacios reducidos. Ideal para testeo de esquiva reactiva y control de proyectiles densos.",
+  "srcImg": "assets/img/Enemies/pinhead01.png",
+  "stats": [
+    { "label": "Dispara proyectiles afilados en ráfagas cortas y rápidas." },
+    { "label": "No utiliza magia ni efectos secundarios." },
+    { "label": "Actúa como reforzador en habitaciones de alta presión." },
+    { "label": "Su arma no es accesible al jugador." }
+  ],
+  "statsGuns": [
+    { "label": "Sistema de disparo afilado interno (no obtenible); ráfaga rápida." }
+  ]
+},
+{
+  "id": 34,
+  "name": "Nitra",
+  "description": "Enemigo explosivo que detona al recibir daño. No dispara ni utiliza armas; su ataque es de autoexplosión mágica.",
+  "descriptionOverview": "Ideal para testear evasión radial y manejo de daño ambiental. Útil en simulaciones de explosiones por contacto directo.",
+  "srcImg": "assets/img/Enemies/nitra01.png",
+  "stats": [
+    { "label": "Detona al recibir daño, causando explosión mágica en área." },
+    { "label": "No dispara ni realiza ataques de largo alcance." },
+    { "label": "No usa armas ni magia ofensiva directa." },
+    { "label": "No deja recompensas ni ítems obtenibles." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; explosión mágica provocada por daño recibido." }
+  ]
+},
+{
+  "id": 35,
+  "name": "Arrowkin",
+  "description": "Cartucho puntiagudo que dispara flechas de energía en línea recta. No usa magia; su arma no está disponible para el jugador.",
+  "descriptionOverview": "Aporta presión frontal en salas de trayectoria predecible. Ideal para testear bloqueadores de proyectiles lineales.",
+  "srcImg": "assets/img/Enemies/arrowkin01.png",
+  "stats": [
+    { "label": "Dispara flechas rectas que cruzan la sala a alta velocidad." },
+    { "label": "No usa magia; su sistema de ataque es balístico puro." },
+    { "label": "Se agrupa con enemigos de trayectoria frontal." },
+    { "label": "El arma que usa no es obtenible." }
+  ],
+  "statsGuns": [
+    { "label": "Sistema de flechas balísticas (no obtenible); trayectoria recta." }
+  ]
+},
+{
+  "id": 36,
+  "name": "Blobulin",
+  "description": "Entidad gelatinosa básica que ataca por contacto físico. No dispara ni usa magia; se desplaza rebotando por la sala.",
+  "descriptionOverview": "Unidad estándar para testeo de físicas, colisiones simples y comportamiento ambiental. No genera proyectiles ni deja recompensas.",
+  "srcImg": "assets/img/Enemies/blobulin01.png",
+  "stats": [
+    { "label": "Se mueve mediante rebotes, sin realizar ataques a distancia." },
+    { "label": "No utiliza magia ni armas." },
+    { "label": "Actúa como obstáculo móvil sin capacidad ofensiva directa." },
+    { "label": "No dropea ítems ni tiene valor comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; daño solo por contacto físico." }
+  ]
+},
+{
+  "id": 37,
+  "name": "Blobuloid",
+  "description": "Versión mediana de Blobulin con comportamiento más agresivo. Embiste al jugador pero sigue sin disparar ni usar magia.",
+  "descriptionOverview": "Funciona como presión media en salas con movilidad limitada. Útil para pruebas de control de espacios y trayectorias aleatorias.",
+  "srcImg": "assets/img/Enemies/blobuloid01.png",
+  "stats": [
+    { "label": "Embiste sin proyectiles ni ataques mágicos." },
+    { "label": "Mayor tamaño y velocidad que el Blobulin." },
+    { "label": "No usa armas ni dropea recompensas." },
+    { "label": "Daño limitado al contacto físico, sin efectos secundarios." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque físico por impacto directo." }
+  ]
+},
+{
+  "id": 38,
+  "name": "Blobulon",
+  "description": "Entidad gelatinosa grande que lanza esferas de energía al jugador. Su ataque es mágico; no usa armas obtenibles.",
+  "descriptionOverview": "Introduce proyectiles mágicos lentos en salas con alta densidad. Ideal para testeo de evasión ambiental o escudos reflejantes.",
+  "srcImg": "assets/img/Enemies/blobulon01.png",
+  "stats": [
+    { "label": "Dispara esferas de energía en trayectorias flotantes." },
+    { "label": "No usa arma física; su ataque es completamente mágico." },
+    { "label": "Actúa como mini jefe en salas temáticas." },
+    { "label": "Su ataque no es obtenible ni comercializable." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles mágicos lanzados desde su núcleo." }
+  ]
+},
+{
+  "id": 39,
+  "name": "Poisbulin",
+  "description": "Criatura de baba tóxica que deja rastro venenoso al moverse. No dispara; su daño proviene del contacto ambiental.",
+  "descriptionOverview": "Introduce efectos persistentes en el suelo. Ideal para testeo de inmunidad a veneno, daño por zona y movilidad forzada.",
+  "srcImg": "assets/img/Enemies/poisbulin01.png",
+  "stats": [
+    { "label": "Deja rastro venenoso al desplazarse por el entorno." },
+    { "label": "No dispara ni lanza proyectiles." },
+    { "label": "Su daño es mágico, pero pasivo y ambiental." },
+    { "label": "No tiene arma obtenible ni valor comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; daño mágico por rastro tóxico." }
+  ]
+},
+{
+  "id": 40,
+  "name": "Poisbuloid",
+  "description": "Versión más agresiva del Poisbulin. Lanza pequeñas bolas tóxicas además de dejar rastro venenoso.",
+  "descriptionOverview": "Aumenta la presión ambiental y el daño mágico indirecto. Perfecto para simulaciones de combate contra veneno activo y pasivo simultáneo.",
+  "srcImg": "assets/img/Enemies/poisbuloid01.png",
+  "stats": [
+    { "label": "Dispara bolas tóxicas en trayectorias curvas." },
+    { "label": "Deja rastro venenoso persistente por donde se mueve." },
+    { "label": "No usa arma física; su daño es completamente mágico." },
+    { "label": "No dropea ítems ni tiene función comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; bolas de veneno y rastro tóxico generados mágicamente." }
+  ]
+},
+{
+  "id": 41,
+  "name": "Poisbulon",
+  "description": "Versión superior del Poisbulin que combina contacto físico con daño tóxico activo. Deja rastro venenoso y lanza proyectiles verdes de veneno.",
+  "descriptionOverview": "Introduce doble amenaza: daño ambiental y proyectiles mágicos. Ideal para testeo de inmunidad a veneno y control de zonas contaminadas.",
+  "srcImg": "assets/img/Enemies/poisbulon01.png",
+  "stats": [
+    { "label": "Deja rastro venenoso en el piso por donde se desplaza." },
+    { "label": "Dispara bolas verdes tóxicas en patrón disperso." },
+    { "label": "Su ataque es mágico; no usa arma física obtenible." },
+    { "label": "No deja loot ni ítems comerciales." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; daño tóxico por proyectil y zona contaminada." }
+  ]
+},
+{
+  "id": 42,
+  "name": "Blizzbulon",
+  "description": "Entidad gelatinosa de hielo que lanza proyectiles congelantes. Su ataque es mágico; no usa armas físicas obtenibles.",
+  "descriptionOverview": "Genera presión ambiental con posibilidad de ralentizar al jugador. Ideal para pruebas de control de movimiento y estados alterados.",
+  "srcImg": "assets/img/Enemies/blizzbulon01.png",
+  "stats": [
+    { "label": "Dispara esferas mágicas de hielo que ralentizan al impactar." },
+    { "label": "No deja rastro en el suelo, pero genera presión aérea constante." },
+    { "label": "No utiliza arma física; el ataque es interno y mágico." },
+    { "label": "No dropea ítems ni tiene valor comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles mágicos de hielo desde núcleo gelatinoso." }
+  ]
+},
+{
+  "id": 43,
+  "name": "Leadbulon",
+  "description": "Cuerpo blindado de baba que se mueve lentamente y embiste con alto daño físico. No dispara ni utiliza magia.",
+  "descriptionOverview": "Funciona como obstáculo de alta resistencia. Ideal para testeo de mecánicas de colisión y daño por impacto directo.",
+  "srcImg": "assets/img/Enemies/leadbulon01.png",
+  "stats": [
+    { "label": "Embiste al jugador con fuerza y peso superior." },
+    { "label": "No lanza proyectiles ni utiliza ataques mágicos." },
+    { "label": "Tiene resistencia física alta y movilidad reducida." },
+    { "label": "No dropea ítems ni permite acceso comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; daño físico por impacto frontal." }
+  ]
+},
+{
+  "id": 44,
+  "name": "Poopulon",
+  "description": "Entidad viscosa de color marrón que lanza proyectiles lentos y deja rastro contaminante. Su ataque es mágico, no obtenible.",
+  "descriptionOverview": "Introduce mecánicas cómicas con daño ambiental. Útil para pruebas de efectos persistentes en terreno y evasión radial.",
+  "srcImg": "assets/img/Enemies/poopulon01.png",
+  "stats": [
+    { "label": "Lanza proyectiles viscosos que manchan y ralentizan zonas." },
+    { "label": "Deja residuos en el suelo que interfieren con movilidad." },
+    { "label": "No usa arma física; su ataque es mágico y ambiental." },
+    { "label": "No comercializa ítems ni puede ser lootado." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque mágico por proyectiles contaminantes." }
+  ]
+},
+{
+  "id": 45,
+  "name": "Bloodbulon",
+  "description": "Criatura de baba roja que dispara proyectiles corrosivos y deja rastros sangrientos. Su ataque es mágico y no está vinculado a armas obtenibles.",
+  "descriptionOverview": "Incrementa la amenaza visual y mecánica en salas avanzadas. Ideal para simular entornos de alta toxicidad y daño persistente.",
+  "srcImg": "assets/img/Enemies/bloodbulon01.png",
+  "stats": [
+    { "label": "Dispara esferas mágicas de sangre corrosiva." },
+    { "label": "Deja rastro sangriento con daño ambiental progresivo." },
+    { "label": "No usa arma física; el ataque proviene de magia oscura interna." },
+    { "label": "No dropea recompensas ni permite comercio." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; daño mágico por sangre y rastro corrosivo." }
+  ]
+},
+{
+  "id": 46,
+  "name": "Skusket",
+  "description": "Esqueleto que dispara proyectiles óseos desde su brazo. No usa arma física; su ataque es mágico ofensivo.",
+  "descriptionOverview": "Funciona como unidad básica de presión en pisos medios. Su ataque rápido y directo permite testear reacción y control de proyectiles frontales.",
+  "srcImg": "assets/img/Enemies/skusket01.png",
+  "stats": [
+    { "label": "Dispara proyectiles óseos rectos desde su brazo derecho." },
+    { "label": "No porta arma física obtenible ni comercializable." },
+    { "label": "Su ataque es mágico de corto alcance." },
+    { "label": "No deja loot ni tiene valor comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; disparo óseo mágico interno de trayectoria recta." }
+  ]
+},
+{
+  "id": 47,
+  "name": "Bookllet",
+  "description": "Libro animado que dispara proyectiles mágicos desde su portada. No usa arma física; su ataque es de tipo arcano.",
+  "descriptionOverview": "Ideal para testeo de visualización mágica en salas pequeñas. Sus proyectiles flotantes permiten evaluar mecánicas de cancelación o rastreo.",
+  "srcImg": "assets/img/Enemies/bookllet01.png",
+  "stats": [
+    { "label": "Lanza proyectiles mágicos desde su núcleo frontal." },
+    { "label": "No utiliza armas obtenibles ni físicas." },
+    { "label": "Ataca mediante energía arcana en patrón fijo." },
+    { "label": "No es comerciable ni deja recompensas." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; magia arcana proyectada desde cuerpo animado." }
+  ]
+},
+{
+  "id": 48,
+  "name": "Blue Bookllet",
+  "description": "Libro azul animado que dispara proyectiles helados con posibilidad de ralentizar. No porta armas obtenibles.",
+  "descriptionOverview": "Introduce efectos de estado y presión visual. Útil para pruebas de ralentización y evasión elemental.",
+  "srcImg": "assets/img/Enemies/bluebookllet01.png",
+  "stats": [
+    { "label": "Lanza proyectiles de hielo con efecto de ralentización." },
+    { "label": "No usa arma física; su ataque es mágico elemental." },
+    { "label": "Se mantiene flotando y dispara en ráfagas." },
+    { "label": "No entrega loot ni tiene valor comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; magia helada proyectada desde cuerpo animado." }
+  ]
+},
+{
+  "id": 49,
+  "name": "Green Bookllet",
+  "description": "Versión verde del Bookllet que dispara proyectiles tóxicos en patrones curvos. Su ataque es mágico; no usa armas obtenibles.",
+  "descriptionOverview": "Aporta riesgo ambiental y presión por trayectoria irregular. Ideal para testeo de proyectiles curvos y daño por veneno.",
+  "srcImg": "assets/img/Enemies/greenbookllet01.png",
+  "stats": [
+    { "label": "Dispara proyectiles verdes con efecto tóxico." },
+    { "label": "Patrón de disparo curvo con trayectoria alterada." },
+    { "label": "No usa arma física; su ataque es magia venenosa." },
+    { "label": "No permite comercio ni entrega objetos." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; magia tóxica proyectada desde cuerpo animado." }
+  ]
+},
+{
+  "id": 50,
+  "name": "Gigi",
+  "description": "Enemigo flotante que dispara proyectiles oscuros de gran tamaño. Su ataque es mágico y no está vinculado a armas convencionales.",
+  "descriptionOverview": "Funciona como mini jefe o refuerzo en salas avanzadas. Sus disparos amplios y lentos permiten evaluar mecánicas de cancelación y evasión aérea.",
+  "srcImg": "assets/img/Enemies/gigi01.png",
+  "stats": [
+    { "label": "Lanza proyectiles mágicos oscuros que ocupan gran espacio visual." },
+    { "label": "Flota con trayectoria suave y lenta." },
+    { "label": "No utiliza arma física ni dropea recompensas." },
+    { "label": "Su ataque proviene de magia interna de tipo oscuro." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles mágicos oscuros generados desde núcleo flotante." }
+  ]
+},
+{
+  "id": 51,
+  "name": "Muzzle Wisp",
+  "description": "Esfera flotante de energía que dispara proyectiles mágicos dispersos. No porta arma física; su ataque es mágico y ambiental.",
+  "descriptionOverview": "Introduce amenaza aérea con dispersión ligera. Útil para testeo de canceladores y evasión de disparo irregular en salas abiertas.",
+  "srcImg": "assets/img/Enemies/muzzlewisp01.png",
+  "stats": [
+    { "label": "Dispara pequeños proyectiles de energía con trayectoria variable." },
+    { "label": "Flota sin patrón estable, complicando la predicción del disparo." },
+    { "label": "No usa arma física; el ataque es mágico puro." },
+    { "label": "No entrega loot ni tiene valor comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; disparos mágicos dispersos generados desde cuerpo flotante." }
+  ]
+},
+{
+  "id": 52,
+  "name": "Muzzle Flare",
+  "description": "Entidad explosiva que dispara ráfagas incendiarias desde su núcleo. Su ataque es mágico de fuego; no usa armas obtenibles.",
+  "descriptionOverview": "Aumenta el riesgo ambiental con daño en área y fuego persistente. Ideal para pruebas de inmunidad elemental y presión directa.",
+  "srcImg": "assets/img/Enemies/muzzleflare01.png",
+  "stats": [
+    { "label": "Dispara ráfagas de fuego con patrón en abanico frontal." },
+    { "label": "No porta arma física ni dropea recompensas." },
+    { "label": "Activa presión térmica en zonas cerradas." },
+    { "label": "Su ataque es mágico elemental de tipo fuego." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ráfagas de fuego generadas por magia interna incendiaria." }
+  ]
+},
+{
+  "id": 53,
+  "name": "Cubulon",
+  "description": "Cubo flotante que dispara proyectiles pesados con ritmo intermitente. No usa armas físicas ni magia elemental.",
+  "descriptionOverview": "Genera presión aérea con disparo pesado en patrón simple. Útil para testeo de colisión frontal y estrategias evasivas de corto alcance.",
+  "srcImg": "assets/img/Enemies/cubulon01.png",
+  "stats": [
+    { "label": "Dispara balas pesadas en trayectoria recta y lenta." },
+    { "label": "Flota en patrones controlados; ideal para simulaciones básicas." },
+    { "label": "No usa magia elemental ni arma obtenible." },
+    { "label": "No tiene valor comercial ni dropea ítems." }
+  ],
+  "statsGuns": [
+    { "label": "Sistema balístico interno (no obtenible); disparo intermitente." }
+  ]
+},
+{
+  "id": 54,
+  "name": "Chancebulon",
+  "description": "Cubo flotante con comportamiento aleatorio; puede disparar o no según su estado. Su ataque es mágico variable y no está vinculado a armas físicas.",
+  "descriptionOverview": "Introduce incertidumbre táctica. Ideal para testeo de reacción ante enemigos de comportamiento impredecible.",
+  "srcImg": "assets/img/Enemies/chancebulon01.png",
+  "stats": [
+    { "label": "Puede disparar proyectiles mágicos, pero no lo hace siempre." },
+    { "label": "Flota con patrones cambiantes entre ofensivo y pasivo." },
+    { "label": "No porta armas físicas ni entrega loot." },
+    { "label": "Su ataque es mágico, con activación probabilística." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; magia ofensiva con probabilidad de activación variable." }
+  ]
+},
+{
+  "id": 55,
+  "name": "Cubulead",
+  "description": "Cubo de plomo que no dispara y sólo embiste. Es completamente físico; no usa magia ni armas obtenibles.",
+  "descriptionOverview": "Funciona como unidad de resistencia sin disparo. Útil para probar mecánicas de colisión y daño por contacto en entornos restringidos.",
+  "srcImg": "assets/img/Enemies/cubulead01.png",
+  "stats": [
+    { "label": "No dispara; embiste al jugador de forma directa." },
+    { "label": "Tiene alta defensa pero baja movilidad." },
+    { "label": "No utiliza magia ni proyectiles." },
+    { "label": "No dropea objetos ni tiene valor comercial." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; daño físico por contacto con cuerpo blindado." }
+  ]
+},
+{
+  "id": 56,
+  "name": "Apprentice Gunjurer",
+  "description": "Aprendiz de magia balística que lanza pequeños proyectiles arcanos. No porta armas físicas; su ataque es completamente mágico.",
+  "descriptionOverview": "Funciona como unidad base para testeo de trayectorias arcanas simples. Sus ataques lentos permiten evaluación de respuestas defensivas básicas.",
+  "srcImg": "assets/img/Enemies/apprenticegunjurer01.png",
+  "stats": [
+    { "label": "Dispara proyectiles mágicos lentos en patrón recto o leve curvatura." },
+    { "label": "No utiliza armas físicas ni dropea recompensas." },
+    { "label": "Ataque puramente mágico de bajo impacto." },
+    { "label": "Se mantiene estático mientras lanza sus hechizos." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles mágicos simples generados desde sus manos." }
+  ]
+},
+{
+  "id": 57,
+  "name": "Gunjurer",
+  "description": "Hechicero intermedio que lanza ráfagas de proyectiles mágicos con mayor cadencia. Su ataque no depende de armas obtenibles.",
+  "descriptionOverview": "Introduce presión mágica en ciclos cortos. Ideal para pruebas de esquiva media y control de trayectorias múltiples.",
+  "srcImg": "assets/img/Enemies/gunjurer01.png",
+  "stats": [
+    { "label": "Dispara ráfagas de magia balística en patrones frontales." },
+    { "label": "Su ataque es más frecuente que el del Apprentice Gunjurer." },
+    { "label": "No porta armas físicas ni deja loot comercializable." },
+    { "label": "Flota suavemente mientras lanza sus hechizos." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ráfagas mágicas disparadas desde núcleo energético." }
+  ]
+},
+{
+  "id": 58,
+  "name": "High Gunjurer",
+  "description": "Versión avanzada del Gunjurer que dispara proyectiles oscuros de alta velocidad. Su ataque es mágico ofensivo sin vínculo a armas físicas.",
+  "descriptionOverview": "Introduce presión elevada en combate con disparos veloces. Perfecto para testear canceladores o sistemas de reacción inmediata.",
+  "srcImg": "assets/img/Enemies/highgunjurer01.png",
+  "stats": [
+    { "label": "Dispara proyectiles oscuros mágicos en ráfaga lineal veloz." },
+    { "label": "Mayor cadencia y daño que las versiones anteriores." },
+    { "label": "No utiliza armas ni entrega recompensas comerciales." },
+    { "label": "Flota mientras alterna entre disparo y reposicionamiento." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles mágicos oscuros generados desde núcleo superior." }
+  ]
+},
+{
+  "id": 59,
+  "name": "Lore Gunjurer",
+  "description": "Invocador místico que además de lanzar proyectiles mágicos, puede generar enemigos. No porta armas físicas ni dropea ítems.",
+  "descriptionOverview": "Introduce mecánica de invocación que altera la densidad enemiga. Ideal para testeo de control de masas y cancelación de proyectiles combinados.",
+  "srcImg": "assets/img/Enemies/loregunjurer01.png",
+  "stats": [
+    { "label": "Lanza proyectiles mágicos en patrón curvo o disperso." },
+    { "label": "Puede invocar enemigos básicos para aumentar presión." },
+    { "label": "No usa armas convencionales ni deja loot." },
+    { "label": "Combina ataque directo e indirecto mediante invocación." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles mágicos + generación de enemigos externos." }
+  ]
+},
+{
+  "id": 60,
+  "name": "Gunsinger",
+  "description": "Hechicero que combina disparos mágicos rápidos con teletransportación constante. No utiliza armas obtenibles; su ataque es energético.",
+  "descriptionOverview": "Complica el combate por su movilidad impredecible y presión mágica constante. Ideal para testeo de rastreo, inmunidad temporal y canceladores de movimiento.",
+  "srcImg": "assets/img/Enemies/gunsinger01.png",
+  "stats": [
+    { "label": "Dispara ráfagas de energía mágica mientras se teletransporta." },
+    { "label": "Se mueve entre puntos fijos, dificultando el seguimiento visual." },
+    { "label": "No porta arma física ni comercializa objetos." },
+    { "label": "Ataque sostenido con efectos visuales complejos." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ráfaga mágica generada por núcleo móvil." }
+  ]
+},
+{
+  "id": 61,
+  "name": "Aged Gunsinger",
+  "description": "Versión envejecida del Gunsinger que conserva su capacidad mágica de disparo rápido y teletransportación. No usa armas físicas obtenibles.",
+  "descriptionOverview": "Su ritmo de ataque sigue siendo intenso a pesar de la apariencia. Ideal para testeo de evasión temporal y reacción ante enemigos móviles con presión constante.",
+  "srcImg": "assets/img/Enemies/agedgunsinger01.png",
+  "stats": [
+    { "label": "Dispara ráfagas mágicas mientras se teletransporta entre posiciones." },
+    { "label": "No porta arma física ni deja recompensas." },
+    { "label": "Conserva velocidad y agresividad aunque tenga apariencia envejecida." },
+    { "label": "El ataque proviene de núcleo energético mágico." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; disparo mágico sostenido activado por teletransportación." }
+  ]
+},
+{
+  "id": 62,
+  "name": "Ammomancer",
+  "description": "Hechicero balístico que dispara proyectiles encantados con patrón agresivo. Su magia simula disparos balísticos sin portar armas reales.",
+  "descriptionOverview": "Aporta ritmo alto de disparo sin arma física. Útil para pruebas de cobertura, bloqueo de rutas y control de espacios con disparos consecutivos.",
+  "srcImg": "assets/img/Enemies/ammomancer01.png",
+  "stats": [
+    { "label": "Dispara proyectiles mágicos con forma de balas reales." },
+    { "label": "No usa armas físicas ni tiene acceso comercial." },
+    { "label": "Aparece en salas con enfoque temático mágico-balístico." },
+    { "label": "Presión ofensiva constante sin intervalos largos." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; magia balística proyectada en patrón agresivo." }
+  ]
+},
+{
+  "id": 63,
+  "name": "Jammomancer",
+  "description": "Invocador oscuro que dispara energía corrupta y genera enemigos Jammed. No usa armas convencionales; su poder es mágico.",
+  "descriptionOverview": "Introduce amenaza indirecta al invocar variantes Jammed, que aumentan daño. Ideal para testeo de escenarios caóticos con presión sostenida.",
+  "srcImg": "assets/img/Enemies/jammomancer01.png",
+  "stats": [
+    { "label": "Dispara proyectiles oscuros con gran velocidad." },
+    { "label": "Invoca enemigos Jammed que hacen daño aumentado." },
+    { "label": "No porta armas físicas ni entrega recompensas." },
+    { "label": "Su ataque es mágico con capacidad multiplicadora de amenaza." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; magia corrupta que combina daño y generación de enemigos." }
+  ]
+},
+{
+  "id": 64,
+  "name": "Jamerlengo",
+  "description": "Entidad oscura que comanda presencia Jammed. Dispara energía negra y refuerza enemigos en pantalla. No porta arma obtenible.",
+  "descriptionOverview": "Su presencia altera toda la sala al amplificar dificultad. Ideal para testeo de efecto global, visualización oscura y entornos extremos.",
+  "srcImg": "assets/img/Enemies/jamerlengo01.png",
+  "stats": [
+    { "label": "Dispara proyectiles sombríos con efecto persistente." },
+    { "label": "Refuerza enemigos Jammed cercanos en tiempo real." },
+    { "label": "No utiliza armas físicas ni deja loot." },
+    { "label": "Actúa como catalizador de dificultad mágica extrema." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ráfagas mágicas oscuras con efecto multiplicador." }
+  ]
+},
+{
+  "id": 65,
+  "name": "Wizbang",
+  "description": "Hechicero errático que lanza proyectiles inestables con trayectoria explosiva. Su ataque es mágico y no está vinculado a armas físicas.",
+  "descriptionOverview": "Perfecto para pruebas de evasión bajo presión explosiva. Sus proyectiles varían en forma, dirección y tiempo de activación.",
+  "srcImg": "assets/img/Enemies/wizbang01.png",
+  "stats": [
+    { "label": "Dispara proyectiles mágicos que explotan con retardo." },
+    { "label": "Trayectoria irregular que complica defensa lineal." },
+    { "label": "No usa armas convencionales ni deja objetos comerciables." },
+    { "label": "Ataca desde rango medio con efectos visuales explosivos." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles mágicos explosivos con comportamiento errático." }
+  ]
+},
+{
+  "id": 66,
+  "name": "Mimic",
+  "description": "Cofre falso que ataca al jugador al intentar abrirlo. No porta arma física ni drop comerciable, pero simula loot.",
+  "descriptionOverview": "Ideal para testeo de detección falsa y evasión rápida. Activa combate inesperado en espacios seguros.",
+  "srcImg": "assets/img/Enemies/mimic01.png",
+  "stats": [
+    { "label": "Simula un cofre común; inicia ataque al ser interactuado." },
+    { "label": "Dispara ráfagas cortas; no deja loot real." },
+    { "label": "No usa armas físicas ni es comerciable." },
+    { "label": "Presión inmediata en entorno inicialmente seguro." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque por transformación y mordidas." }
+  ]
+},
+{
+  "id": 67,
+  "name": "Gun Fairy",
+  "description": "Pequeña criatura mágica que otorga disparos extra o modifica patrones de fuego del jugador. No combate directamente.",
+  "descriptionOverview": "Perfecta para pruebas de sinergias con armas. No representa amenaza, pero influye en daño y velocidad de disparo.",
+  "srcImg": "assets/img/Enemies/gunfairy01.png",
+  "stats": [
+    { "label": "Modifica temporalmente el tipo de disparo del jugador." },
+    { "label": "No dispara ni interactúa ofensivamente." },
+    { "label": "Puede invocarse como efecto visual mágico." },
+    { "label": "No porta arma ni deja drop físico." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; efecto mágico que refuerza disparos ajenos." }
+  ]
+},
+{
+  "id": 68,
+  "name": "Bullat",
+  "description": "Bala viviente que se lanza en línea recta a alta velocidad. No dispara ni deja loot; su ataque es por colisión.",
+  "descriptionOverview": "Clave para testeo de evasión directa. Su trayectoria es rápida, lineal y sin disparo adicional.",
+  "srcImg": "assets/img/Enemies/bullat01.png",
+  "stats": [
+    { "label": "Ataca por embestida frontal sin proyectiles." },
+    { "label": "No porta arma ni entrega loot comerciable." },
+    { "label": "Su cuerpo entero es el ataque; no hay magia." },
+    { "label": "Fácil de evitar si se anticipa movimiento." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; cuerpo proyectado como proyectil físico." }
+  ]
+},
+{
+  "id": 69,
+  "name": "Shotgat",
+  "description": "Enemigo con forma de escopeta viva que lanza múltiples proyectiles en cono. No entrega arma real ni drop comerciable.",
+  "descriptionOverview": "Útil para pruebas de cobertura amplia en corto rango. Presión agresiva pero limitada por distancia.",
+  "srcImg": "assets/img/Enemies/shotgat01.png",
+  "stats": [
+    { "label": "Dispara ráfagas cortas en patrón de cono." },
+    { "label": "No tiene arma equipable ni deja loot." },
+    { "label": "Aparece en salas físicas, sin magia." },
+    { "label": "Alto daño si no se evita el cono frontal." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles internos simulando escopeta." }
+  ]
+},
+{
+  "id": 70,
+  "name": "Grenat",
+  "description": "Entidad explosiva que se lanza al jugador y detona tras breve retardo. No deja loot ni usa arma física.",
+  "descriptionOverview": "Perfecto para testeo de patrones con retardo. Su ataque tiene efecto zonal y penaliza agrupaciones.",
+  "srcImg": "assets/img/Enemies/grenat01.png",
+  "stats": [
+    { "label": "Se proyecta hacia el jugador y explota tras contacto o tiempo límite." },
+    { "label": "No dispara; el ataque es la explosión." },
+    { "label": "No deja drop comerciable ni arma." },
+    { "label": "Genera efecto zonal útil para limpieza de enemigos." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque explosivo activado por proximidad." }
+  ]
+},
+{
+  "id": 71,
+  "name": "Spirat",
+  "description": "Entidad espectral que se desliza por el suelo y lanza proyectiles mágicos curvos. No deja arma física ni loot comerciable.",
+  "descriptionOverview": "Útil para testeo de trayectorias curvas y evasión en salas oscuras. Su forma etérea complica detección rápida.",
+  "srcImg": "assets/img/Enemies/spirat01.png",
+  "stats": [
+    { "label": "Flota a baja altura y dispara energía espiritual curva." },
+    { "label": "No deja drop ni porta arma física." },
+    { "label": "Difícil de detectar en entornos oscuros o con neblina." },
+    { "label": "El daño es mágico con trayectoria impredecible." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; disparo curvo de energía espiritual." }
+  ]
+},
+{
+  "id": 72,
+  "name": "Coaler",
+  "description": "Constructo minero que lanza proyectiles sólidos de carbón en línea recta. Daño físico sin magia ni drop equipable.",
+  "descriptionOverview": "Perfecto para pruebas de colisión dura. Sus disparos bloquean visibilidad y generan presión lineal.",
+  "srcImg": "assets/img/Enemies/coaler01.png",
+  "stats": [
+    { "label": "Dispara trozos de carbón que rebotan levemente." },
+    { "label": "No tiene arma ni drop comercializable." },
+    { "label": "Su ataque es físico, contundente y directo." },
+    { "label": "Funciona como minero defensivo de salas profundas." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyección física de carbón minero." }
+  ]
+},
+{
+  "id": 73,
+  "name": "Gat",
+  "description": "Bala inteligente con forma de proyectil animado. Su ataque es por embestida rápida sin proyectiles externos.",
+  "descriptionOverview": "Clave para testeo de evasión pura. No hay magia, sólo movimiento agresivo y preciso.",
+  "srcImg": "assets/img/Enemies/gat01.png",
+  "stats": [
+    { "label": "Embiste al jugador en línea recta sin disparar." },
+    { "label": "No porta arma ni deja loot comerciable." },
+    { "label": "Ataque físico tipo proyectil con alta velocidad." },
+    { "label": "Puede aparecer en grupos para saturar trayectorias." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; cuerpo actúa como proyectil vivo." }
+  ]
+},
+{
+  "id": 74,
+  "name": "Det",
+  "description": "Explosivo viviente que se lanza y detona al contacto. No posee arma ni deja drop útil, pero genera daño zonal.",
+  "descriptionOverview": "Ideal para testeo de presión en zonas cerradas. Su patrón penaliza agrupamientos y trayectorias lentas.",
+  "srcImg": "assets/img/Enemies/det01.png",
+  "stats": [
+    { "label": "Se proyecta hacia el jugador y explota al colisionar." },
+    { "label": "No dispara ni entrega loot." },
+    { "label": "Daño físico con efecto en área." },
+    { "label": "Comportamiento similar a granadas suicidas." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque explosivo por colisión." }
+  ]
+},
+{
+  "id": 75,
+  "name": "Gunzookie",
+  "description": "Criatura robusta con cañón incorporado que lanza proyectiles lentos pero potentes. No deja drop ni arma obtenible.",
+  "descriptionOverview": "Perfecto para pruebas de evasión pesada y visibilidad de proyectiles grandes. Ideal en entornos de baja movilidad.",
+  "srcImg": "assets/img/Enemies/gunzookie01.png",
+  "stats": [
+    { "label": "Dispara balas lentas pero de alto daño." },
+    { "label": "No porta arma ni deja recompensa." },
+    { "label": "Tiene cuerpo blindado y animación pesada." },
+    { "label": "Presión frontal con pausas visibles entre disparos." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; cañón integrado con balas físicas lentas." }
+  ]
+},
+{
+  "id": 76,
+  "name": "Gunzockie",
+  "description": "Criatura pequeña con cañón incorporado que dispara balas rápidas y de corto alcance. Su arma no es obtenible y el ataque proviene de su cuerpo.",
+  "descriptionOverview": "Actúa como versión ligera del Gunzookie. Aporta presión frontal en salas de alta movilidad, ideal para testeo de disparos consecutivos sin magia.",
+  "srcImg": "assets/img/Enemies/gunzockie01.png",
+  "stats": [
+    { "label": "Dispara balas físicas con cadencia rápida pero daño bajo." },
+    { "label": "No porta arma ni deja recompensa comercial." },
+    { "label": "Tiene cuerpo pequeño y movilidad intermedia." },
+    { "label": "El cañón está integrado; no puede replicarse como arma." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles físicos activados desde núcleo incorporado." }
+  ]
+},
+{
+  "id": 77,
+  "name": "Bullet Shark",
+  "description": "Enemigo subterráneo con forma de tiburón que se lanza desde el piso y genera daño por colisión. No dispara ni deja loot.",
+  "descriptionOverview": "Perfecto para pruebas de emboscadas verticales. Su movimiento ascendente penaliza posiciones estáticas en salas cerradas.",
+  "srcImg": "assets/img/Enemies/bulletshark01.png",
+  "stats": [
+    { "label": "Emergen desde el suelo y atacan mediante salto frontal." },
+    { "label": "No disparan ni usan armas físicas o mágicas." },
+    { "label": "Actúan como emboscadores de trayectorias bajas." },
+    { "label": "No tienen valor comercial ni entregan ítems." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; daño físico por salto y colisión directa." }
+  ]
+},
+{
+  "id": 78,
+  "name": "Great Bullet Shark",
+  "description": "Versión superior del Bullet Shark con mayor daño, tamaño y velocidad de embestida. No utiliza proyectiles ni deja recompensas.",
+  "descriptionOverview": "Representa amenaza inmediata en salas avanzadas. Útil para testear presión por colisión aérea y control de espacios verticales.",
+  "srcImg": "assets/img/Enemies/greatbulletshark01.png",
+  "stats": [
+    { "label": "Realiza embestidas más rápidas que el Bullet Shark básico." },
+    { "label": "No dispara ni usa arma física o mágica." },
+    { "label": "Tiene gran tamaño y cobertura de zona elevada." },
+    { "label": "No entrega loot ni puede replicarse como arma." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; embestida física activada desde trayectoria vertical." }
+  ]
+},
+{
+  "id": 79,
+  "name": "Tombstoner",
+  "description": "Entidad mágica con forma de lápida que dispara proyectiles desde su centro. No usa armas físicas y su ataque es arcano.",
+  "descriptionOverview": "Introduce presión visual y mecánica en salas oscuras. Sus disparos lentos permiten pruebas de esquiva aérea y control lateral.",
+  "srcImg": "assets/img/Enemies/tombstoner01.png",
+  "stats": [
+    { "label": "Dispara proyectiles mágicos desde su núcleo interno." },
+    { "label": "No porta arma física ni comercializable." },
+    { "label": "Su forma bloquea visibilidad y genera presión ambiental." },
+    { "label": "El ataque es mágico sin efectos secundarios." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyectiles mágicos oscuros generados desde núcleo estático." }
+  ]
+},
+{
+  "id": 80,
+  "name": "Gun Cultist",
+  "description": "Seguidor del culto balístico que dispara energía oscura desde su báculo. No usa arma convencional ni deja drop.",
+  "descriptionOverview": "Combina amenaza mágica frontal con animaciones ceremoniales. Ideal para testeo de patrones intermitentes en combate estático.",
+  "srcImg": "assets/img/Enemies/guncultist01.png",
+  "stats": [
+    { "label": "Lanza energía mágica oscura en ráfagas cortas." },
+    { "label": "No utiliza arma física ni dropea objetos." },
+    { "label": "Actúa como enemigo temático en zonas rituales." },
+    { "label": "Presión frontal con animaciones largas de carga." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ráfagas mágicas oscuras proyectadas desde báculo ritual." }
+  ]
+},
+{
+  "id": 81,
+  "name": "Beadie",
+  "description": "Pequeño enemigo que ataca girando rápidamente en línea recta. No dispara ni usa armas externas.",
+  "descriptionOverview": "Perfecto para testear esquivas horizontales en salas abiertas. Su trayectoria giratoria exige precisión de tiempo.",
+  "srcImg": "assets/img/Enemies/beadie01.png",
+  "stats": [
+    { "label": "Realiza ataque físico girando a alta velocidad." },
+    { "label": "No tiene arma ni recompensa comercial." },
+    { "label": "Pequeño, veloz y con trayectoria recta al impactar." },
+    { "label": "Ideal para pruebas básicas de evasión física." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; daño por colisión giratoria directa." }
+  ]
+},
+{
+  "id": 82,
+  "name": "Gun Nut",
+  "description": "Enemigo robusto con espada grande. Realiza ataques físicos y dispara proyectiles en ráfagas lentas.",
+  "descriptionOverview": "Aporta presión en salas semi-cerradas. Es útil para testear bloqueos y contragolpes pesados.",
+  "srcImg": "assets/img/Enemies/gunnut01.png",
+  "stats": [
+    { "label": "Porta espada grande, realiza ataques físicos cuerpo a cuerpo." },
+    { "label": "Dispara ráfagas cortas de energía desde la espada." },
+    { "label": "Lento, pero con daño alto en colisión y proyectil." },
+    { "label": "No deja arma obtenible ni loot comercializable." }
+  ],
+  "statsGuns": [
+    { "label": "Usa espada como catalizador de disparo; proyectiles mágicos frontales." }
+  ]
+},
+{
+  "id": 83,
+  "name": "Spectral Gun Nut",
+  "description": "Versión espectral del Gun Nut, con ataques mágicos oscuros y desplazamiento flotante.",
+  "descriptionOverview": "Amenaza lenta pero constante. Ideal para testeo de patrones mágicos y evasión por zonas ocultas.",
+  "srcImg": "assets/img/Enemies/spectralgunnut01.png",
+  "stats": [
+    { "label": "Flota y dispara energía oscura en patrones semicirculares." },
+    { "label": "No tiene arma física ni recompensas obtenibles." },
+    { "label": "Mantiene presión visual y cubre zonas con proyectiles lentos." },
+    { "label": "No utiliza colisión directa como método de ataque principal." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; disparo mágico oscuro con ráfagas flotantes." }
+  ]
+},
+{
+  "id": 84,
+  "name": "Chain Gunner",
+  "description": "Enemigo con cañón acoplado que dispara ráfagas múltiples a gran velocidad. No usa magia ni cuerpo a cuerpo.",
+  "descriptionOverview": "Perfecto para testear cobertura lateral y evasión intensiva. Su cadencia alta genera presión táctica continua.",
+  "srcImg": "assets/img/Enemies/chaingunner01.png",
+  "stats": [
+    { "label": "Dispara balas físicas en ráfagas largas." },
+    { "label": "Tiene cañón integrado y gran resistencia." },
+    { "label": "No porta arma recuperable ni deja loot comercial." },
+    { "label": "Ataque directo y constante, sin pausa mágica." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma recuperable; disparo físico continuo desde núcleo acoplado." }
+  ]
+},
+{
+  "id": 85,
+  "name": "Fungun",
+  "description": "Criatura fúngica que dispara proyectiles esporádicos con efecto de dispersión. No utiliza armas físicas.",
+  "descriptionOverview": "Introduce elementos orgánicos de ataque. Ideal para probar control de área con proyectiles en abanico.",
+  "srcImg": "assets/img/Enemies/fungun01.png",
+  "stats": [
+    { "label": "Dispara esporas mágicas en patrón de dispersión." },
+    { "label": "No porta arma física ni deja objetos." },
+    { "label": "Actúa como unidad biológica de presión visual." },
+    { "label": "Rango medio y trayectoria irregular." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; disparo mágico fúngico con patrón divergente." }
+  ]
+},
+{
+  "id": 86,
+  "name": "Spogre",
+  "description": "Criatura fúngica masiva que lanza esporas explosivas en abanico. No usa armas físicas; su ataque es mágico de área.",
+  "descriptionOverview": "Actúa como jefe intermedio en zonas orgánicas. Ideal para probar esquiva radial, efectos de estado y control de sala bajo presión fúngica.",
+  "srcImg": "assets/img/Enemies/spogre01.png",
+  "stats": [
+    { "label": "Dispara esporas explosivas en patrón amplio." },
+    { "label": "Su ataque es mágico, con daño ambiental por dispersión." },
+    { "label": "No porta arma física ni entrega loot." },
+    { "label": "Ocupa gran espacio visual y genera presión táctica alta." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque mágico por dispersión fúngica explosiva." }
+  ]
+},
+{
+  "id": 87,
+  "name": "Mountain Cube",
+  "description": "Cubo masivo con disparo físico lento y trayectoria recta. No utiliza magia ni deja armas obtenibles.",
+  "descriptionOverview": "Aporta presión defensiva en salas estáticas. Útil para pruebas de bloqueo visual y proyectiles de alto peso.",
+  "srcImg": "assets/img/Enemies/mountaincube01.png",
+  "stats": [
+    { "label": "Dispara balas grandes y lentas que cubren el espacio frontal." },
+    { "label": "No usa magia ni colisión directa como ataque." },
+    { "label": "Alta resistencia física, baja movilidad." },
+    { "label": "No tiene valor comercial ni loot." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; sistema balístico interno de trayectoria recta." }
+  ]
+},
+{
+  "id": 88,
+  "name": "Lead Cube",
+  "description": "Cubo blindado que dispara balas pesadas en ángulos precisos. No usa magia ni armas obtenibles; su ataque está integrado en su núcleo.",
+  "descriptionOverview": "Aporta control geométrico a las salas. Sus disparos en ángulo permiten simular rebotes y cobertura lateral.",
+  "srcImg": "assets/img/Enemies/leadcube01.png",
+  "stats": [
+    { "label": "Dispara balas pesadas en ángulos controlados." },
+    { "label": "No usa magia; su sistema de disparo es mecánico." },
+    { "label": "Se desplaza lentamente pero con gran resistencia." },
+    { "label": "No permite acceso a su arma ni dropea objetos." }
+  ],
+  "statsGuns": [
+    { "label": "Sistema interno balístico (no obtenible); disparos angulados de alto peso." }
+  ]
+},
+{
+  "id": 89,
+  "name": "Flesh Cube",
+  "description": "Cubo de carne que lanza proyectiles orgánicos con trayectoria impredecible. Su ataque es mágico-biológico.",
+  "descriptionOverview": "Introduce elementos grotescos con daño ambiental disperso. Ideal para pruebas de evasión aleatoria y presión caótica.",
+  "srcImg": "assets/img/Enemies/fleshcube01.png",
+  "stats": [
+    { "label": "Dispara fragmentos de carne que rebotan o se desvían." },
+    { "label": "No utiliza armas físicas ni entrega recompensas." },
+    { "label": "Su ataque es de tipo mágico con efectos visuales orgánicos." },
+    { "label": "Opera en zonas temáticas biológicas o mutantes." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyección mágica de fragmentos orgánicos impredecibles." }
+  ]
+},
+{
+  "id": 90,
+  "name": "Dead Blow",
+  "description": "Martillo viviente que embiste al jugador desde ángulos verticales. Su ataque es físico, sin proyectiles ni magia.",
+  "descriptionOverview": "Ideal para testeo de evasión vertical y timing de esquiva. Presión súbita y contundente en salas cerradas.",
+  "srcImg": "assets/img/Enemies/deadblow01.png",
+  "stats": [
+    { "label": "Cae rápidamente desde el techo para aplastar al jugador." },
+    { "label": "No utiliza proyectiles ni magia; ataque por impacto físico directo." },
+    { "label": "Sin arma obtenible ni drops." },
+    { "label": "Presencia mecánica de alta presión táctica." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque físico descendente por colisión." }
+  ]
+},
+{
+  "id": 91,
+  "name": "Lead Maiden",
+  "description": "Entidad cerrada con forma de doncella blindada que lanza balas desde su interior. No usa magia; su sistema balístico es interno.",
+  "descriptionOverview": "Opera como torre defensiva móvil. Ideal para testeo de presión lateral continua y evasión entre ciclos de disparo.",
+  "srcImg": "assets/img/Enemies/leadmaiden01.png",
+  "stats": [
+    { "label": "Dispara ráfagas de balas desde su interior metálico." },
+    { "label": "No utiliza magia ni colisión como ataque." },
+    { "label": "Actúa como unidad de defensa zonal con trayectoria fija." },
+    { "label": "No entrega loot ni arma equipable." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ráfagas físicas generadas por núcleo mecánico." }
+  ]
+},
+{
+  "id": 92,
+  "name": "Misfire Beast",
+  "description": "Entidad mágica inestable que lanza proyectiles erráticos de fuego espiritual. No entrega loot ni utiliza arma obtenible.",
+  "descriptionOverview": "Ideal para pruebas de evasión ante trayectorias caóticas. Representa riesgo explosivo en zonas oscuras o malditas.",
+  "srcImg": "assets/img/Enemies/misfirebeast01.png",
+  "stats": [
+    { "label": "Dispara fuego mágico en trayectorias impredecibles." },
+    { "label": "No porta arma ni entrega drops." },
+    { "label": "Genera presión por dispersión caótica." },
+    { "label": "Alta resistencia a ataques convencionales." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma obtenible; núcleo mágico lanza fuego errático." }
+  ]
+},
+{
+  "id": 93,
+  "name": "Phaser Spider",
+  "description": "Araña tecnológica que dispara rayos láser desde sus extremidades. No usa magia ni deja armas equipables.",
+  "descriptionOverview": "Perfecta para testear presión lateral continua y teletransportes en zonas mecánicas.",
+  "srcImg": "assets/img/Enemies/phaserspider01.png",
+  "stats": [
+    { "label": "Dispara rayos láser rápidos en patrón lateral." },
+    { "label": "Usa teletransporte corto para reposicionarse." },
+    { "label": "No emplea magia ni colisión como ataque." },
+    { "label": "No dropea loot ni arma." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; sistema láser integrado en extremidades." }
+  ]
+},
+{
+  "id": 94,
+  "name": "Killithid",
+  "description": "Aberración psíquica con tentáculos que generan ondas de choque mentales. No usa armas físicas ni entrega recompensas.",
+  "descriptionOverview": "Introduce presión psíquica en salas tácticas. Excelente para evaluar control mental y defensa contra daño invisible.",
+  "srcImg": "assets/img/Enemies/killithid01.png",
+  "stats": [
+    { "label": "Emite ondas mentales que afectan al jugador sin proyectil visible." },
+    { "label": "No entrega loot ni arma obtenible." },
+    { "label": "Su ataque es mágico de tipo psíquico." },
+    { "label": "Desplazamiento lento con presencia ambiental fuerte." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque psíquico mediante ondas invisibles." }
+  ]
+},
+{
+  "id": 95,
+  "name": "Gripmaster",
+  "description": "Mano gigante que cae desde el techo para aplastar al jugador. No utiliza magia ni arma obtenible.",
+  "descriptionOverview": "Elemento de presión súbita vertical. Útil para testeo de reacciones y evasión con timing perfecto.",
+  "srcImg": "assets/img/Enemies/gripmaster01.png",
+  "stats": [
+    { "label": "Cae desde el techo para aplastar y capturar." },
+    { "label": "No dispara; ataque por colisión directa." },
+    { "label": "No usa magia ni entrega loot." },
+    { "label": "Activa miedo contextual en zonas oscuras." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque físico directo por colisión descendente." }
+  ]
+},
+{
+  "id": 96,
+  "name": "Tarnisher",
+  "description": "Entidad espectral que corrompe al jugador con ataques progresivos de daño mental. No tiene arma física ni deja loot.",
+  "descriptionOverview": "Diseñado para desgaste prolongado. Excelente para pruebas de resistencia mental y acumulación de efectos negativos.",
+  "srcImg": "assets/img/Enemies/tarnisher01.png",
+  "stats": [
+    { "label": "Aplica daño mental gradual y efecto de fatiga visual." },
+    { "label": "No emplea arma ni proyectiles tradicionales." },
+    { "label": "Ataque mágico de tipo espectral persistente." },
+    { "label": "No dropea objetos ni recompensa." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque mental espectral acumulativo." }
+  ]
+},
+{
+  "id": 97,
+  "name": "Shambling Round",
+  "description": "Entidad redonda con movimiento errático que lanza balas en espiral. No usa magia ni entrega loot.",
+  "descriptionOverview": "Perfecta para pruebas de evasión orbital y presión de dispersión múltiple. Presencia humorística y caótica.",
+  "srcImg": "assets/img/Enemies/shamblinground01.png",
+  "stats": [
+    { "label": "Dispara múltiples balas desde su centro en patrón espiral." },
+    { "label": "No porta arma equipable ni magia." },
+    { "label": "Se desplaza rodando con trayectoria impredecible." },
+    { "label": "No entrega drops ni loot." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; balística interna con patrón espiral de alto volumen." }
+  ]
+},
+{
+  "id": 98,
+  "name": "Shelleton",
+  "description": "Esqueleto blindado que dispara proyectiles desde su torso. No emplea magia y su ataque es físico automatizado.",
+  "descriptionOverview": "Combina estética esquelética con armadura. Ideal para testeo de presión frontal con alta resistencia.",
+  "srcImg": "assets/img/Enemies/shelleton01.png",
+  "stats": [
+    { "label": "Dispara balas desde su torso con gran precisión." },
+    { "label": "No usa magia ni deja loot." },
+    { "label": "Resistencia física alta, movimiento lento." },
+    { "label": "No entrega arma obtenible." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma equipable; sistema de disparo blindado en torso." }
+  ]
+},
+{
+  "id": 99,
+  "name": "Agonizer",
+  "description": "Entidad espectral que inflige daño mágico persistente mediante gritos. No entrega recompensa ni porta arma física.",
+  "descriptionOverview": "Diseñado para presión emocional prolongada. Útil en pruebas de acumulación de daño espectral.",
+  "srcImg": "assets/img/Enemies/agonizer01.png",
+  "stats": [
+    { "label": "Emite gritos que afectan la barra mental del jugador." },
+    { "label": "No usa colisión directa ni proyectiles visibles." },
+    { "label": "Su daño es mágico-espectral y persistente." },
+    { "label": "Sin loot ni recompensa." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; núcleo espectral emite daño mental por ondas sonoras." }
+  ]
+},
+{
+  "id": 100,
+  "name": "Revolvenant",
+  "description": "Esqueleto armado con dos revólveres espirituales. Sus disparos son proyectiles mágicos de alta precisión.",
+  "descriptionOverview": "Simula duelo espectral. Ideal para pruebas de evasión en ráfaga alterna y patrones de ataque tipo boss.",
+  "srcImg": "assets/img/Enemies/revolvenant01.png",
+  "stats": [
+    { "label": "Dispara balas espectrales en patrón alterno (ambidiestro)." },
+    { "label": "No entrega sus armas ni objetos equipables." },
+    { "label": "Ataque mágico visualmente físico." },
+    { "label": "Alta presión frontal y estética tipo jefe." }
+  ],
+  "statsGuns": [
+    { "label": "Revólveres mágicos no obtenibles; balas espectrales sincronizadas." }
+  ]
+},
+{
+  "id": 101,
+  "name": "Gunreaper",
+  "description": "Entidad de jefe temático que dispara balas desde una guadaña mecánica. Su ataque es mágico-físico con patrón rítmico.",
+  "descriptionOverview": "Diseñado como boss. Excelente para testeo de esquiva rítmica, patrones cruzados y presión ambiental máxima.",
+  "srcImg": "assets/img/Enemies/gunreaper01.png",
+  "stats": [
+    { "label": "Dispara ráfagas desde guadaña giratoria." },
+    { "label": "No entrega loot ni arma obtenible." },
+    { "label": "Combina daño físico con efecto mágico visual." },
+    { "label": "Presencia intimidante, simula jefe final." }
+  ],
+  "statsGuns": [
+    { "label": "Guadaña-metralla integrada; ataque mixto no equipable." }
+  ]
+},
+{
+  "id": 102,
+  "name": "Lord of the Jammed",
+  "description": "Entidad suprema que aparece como castigo cuando se abusa del sistema de maldición. No puede ser derrotado ni entrega loot.",
+  "descriptionOverview": "Opera como castigo visual y mecánico. No dispara, pero genera presión constante, haciendo al jugador vulnerable.",
+  "srcImg": "assets/img/Enemies/lordofthejammed01.png",
+  "stats": [
+    { "label": "Aparece automáticamente al alcanzar cierto umbral de maldición." },
+    { "label": "No dispara; genera daño ambiental por colisión constante." },
+    { "label": "No puede ser derrotado ni interactuado." },
+    { "label": "No entrega loot ni arma equipable." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; presencia punitiva con daño ambiental." }
+  ]
+},
+{
+  "id": 103,
+  "name": "Fuselier",
+  "description": "Entidad de tipo boss que lanza orbes mágicos y balas espectrales con patrón cruzado. No entrega recompensas.",
+  "descriptionOverview": "Excelente para testeo de esquivas en patrones cruzados y presión boss. Su ataque es mágico de alta dispersión.",
+  "srcImg": "assets/img/Enemies/fuselier01.png",
+  "stats": [
+    { "label": "Dispara orbes mágicos que explotan en ráfagas cruzadas." },
+    { "label": "Usa daño espectral visual con presión de zona." },
+    { "label": "No entrega loot ni arma obtenible." },
+    { "label": "Presencia boss sin interacción fuera del combate." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; núcleo mágico dispara ráfagas cruzadas de alta densidad." }
+  ]
+},
+{
+  "id": 104,
+  "name": "Blockner (Ghost)",
+  "description": "Versión espectral del excomandante Blockner, con ataque mágico que combina balas y efectos de estado. No entrega loot.",
+  "descriptionOverview": "Recupera patrones de boss físico pero ahora con daño mágico. Ideal para testeo de bosses reaparecidos.",
+  "srcImg": "assets/img/Enemies/blocknerghost01.png",
+  "stats": [
+    { "label": "Dispara balas mágicas en patrón rítmico." },
+    { "label": "Aplica efectos de estado como ralentización o distorsión visual." },
+    { "label": "No entrega arma ni recompensa." },
+    { "label": "Combina presión psicológica con daño ambiental." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; ataque mágico rítmico con efectos de estado." }
+  ]
+},
+{
+  "id": 105,
+  "name": "Shadow Magician",
+  "description": "Hechicero sombrío que se teletransporta y lanza proyectiles mágicos dirigidos. No entrega loot ni arma obtenible.",
+  "descriptionOverview": "Introduce manipulación visual y ataques dirigidos. Útil en pruebas de evasión inteligente y control de zona.",
+  "srcImg": "assets/img/Enemies/shadowmagician01.png",
+  "stats": [
+    { "label": "Dispara proyectiles mágicos que siguen al jugador." },
+    { "label": "Usa teletransportes cortos para cambiar de posición." },
+    { "label": "Su ataque es exclusivamente mágico." },
+    { "label": "No entrega recompensa ni arma." }
+  ],
+  "statsGuns": [
+    { "label": "Sin arma; proyección mágica dirigida desde túneles sombríos." }
+  ]
+}
+]

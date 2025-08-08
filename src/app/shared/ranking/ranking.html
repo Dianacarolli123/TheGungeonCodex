@@ -1,0 +1,22 @@
+<div id="ranking">
+    <div class="container-xl mx-auto p-4 section bg-ranking">
+        <div class="row">
+            <div class="d-flex justify-content-between align-items-center inner">
+                <h4 class="mb-0 element fw-semibold">Popularity Ranking</h4>
+                <p class="mb-0 py-1 px-3 label fw-semibold">based on community</p>
+            </div>
+            <h1 class=" fw-bold ranking-color element">{{ rankingEntry.rankinPosition }}</h1>
+            <div class="d-flex justify-content-between align-items-center inner">
+                <p class="color-subtitel">{{ rankingEntry.name }}'s popularity</p>
+                <p class="color-stat">{{ rankingEntry.stat }}/100</p>
+            </div>
+            <div class="progress mt-2 element">
+                <div 
+                    class="progress-bar bg-progress-bar" 
+                    [style.width.%]="rankingEntry.stat">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

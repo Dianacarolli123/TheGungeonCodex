@@ -1,0 +1,34 @@
+<app-title
+  [personaje]="drop.name"
+  [description]="drop.description"
+  [srcImg]="drop.srcImg"
+>
+</app-title>
+<app-initial-overview
+  *ngIf="drop"
+  [data]="drop"
+  [imgSrc]="drop.srcImg"
+  [context]="'drop'"
+  [highlights]="drop.statsOverview"
+>
+</app-initial-overview>
+<app-metric-dualbar-list
+  *ngIf="dropAppearance"
+  [isEnemyView]="true"
+  [enemyStatsNormal]="dropAppearance.statsChests"
+  [enemyStatsSpecial]="dropAppearance.statsPlaces"
+>
+</app-metric-dualbar-list>
+<app-ranking-guns
+  *ngIf="gunRankingList.length > 0"
+  [guns]="gunRankingList"
+  [currentOwner]="drop.name"
+  [context]="'drop'"
+>
+</app-ranking-guns>
+<app-recommended-items
+  *ngIf="drop?.name"
+  [currentDrop]="drop.name"
+  [context]="'drop'"
+>
+</app-recommended-items>

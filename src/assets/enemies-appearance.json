@@ -1,0 +1,34 @@
+[
+    { "id": 1, 
+    "name": "Bullet Kin", 
+    "statsNormal": [
+        { "label": "Piso 1 Keep of the Lead Lord", "value": 100 },
+        { "label": "Piso 2 Keep of the Lead Lord", "value": 70 },
+        { "label": "Piso 3 Keep of the Lead Lord", "value": 50 },
+        { "label": "Piso 4 Keep of the Lead Lord", "value": 80 },
+        { "label": "Piso 5 Keep of the Lead Lord", "value": 100 },
+        { "label": "Piso 6 Keep of the Lead Lord", "value": 100 }
+    ],
+    "statsSpecial": [
+        { "label": "Piso 1 Keep of the Lead Lord", "value": 100 },
+        { "label": "Piso 2 Keep of the Lead Lord", "value": 70 },
+        { "label": "Piso 3 Keep of the Lead Lord", "value": 5 }
+    ]
+    },
+    { "id": 2, 
+    "name": "Cardinal", 
+    "statsNormal": [
+        { "label": "Piso 1 Keep of the Lead Lord", "value": 100 },
+        { "label": "Piso 2 Keep of the Lead Lord", "value": 70 },
+        { "label": "Piso 3 Keep of the Lead Lord", "value": 50 },
+        { "label": "Piso 4 Keep of the Lead Lord", "value": 80 },
+        { "label": "Piso 5 Keep of the Lead Lord", "value": 100 },
+        { "label": "Piso 6 Keep of the Lead Lord", "value": 100 }
+    ],
+    "statsSpecial": [
+        { "label": "Piso 1 Keep of the Lead Lord", "value": 100 },
+        { "label": "Piso 2 Keep of the Lead Lord", "value": 70 },
+        { "label": "Piso 3 Keep of the Lead Lord", "value": 50 }
+    ]
+    }
+]

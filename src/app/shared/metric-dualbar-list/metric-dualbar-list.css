@@ -1,0 +1,31 @@
+.color-subtitel {
+  color: var(--primary-1600);
+}
+.color-stat {
+  color: var(--primary-300);
+}
+
+.bg-metric-dualbar-list {
+  border-radius: var(--border-radius-lg);
+  border: 1px solid var(--primary-1800);
+  box-shadow: var(--box-shadow-lg);
+}
+
+.label {
+  background-color: var(--primary-1200);
+  border-radius: var(--border-radius-lg);
+  border: 1px solid var(--primary-300);
+}
+
+.ranking-color {
+  color: var(--primary-300);
+}
+
+.bg-progress-bar {
+  background-color: var(--primary-300);
+}
+
+.progress {
+  background-color: var(--primary-1300);
+  height: 0.5rem;
+}

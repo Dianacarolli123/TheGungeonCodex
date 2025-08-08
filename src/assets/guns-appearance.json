@@ -1,0 +1,44 @@
+[
+    { "id": 1, 
+    "name": "Hexagun", 
+    "statsChests": [
+        { "label": "Chest Brown", "value": 10 },
+        { "label": "Chest Blue", "value": 70 },
+        { "label": "Chest Green", "value": 50 },
+        { "label": "Chest Red", "value": 80 },
+        { "label": "Chest Black", "value": 100 }
+    ],
+    "statsPlaces": [
+        { "label": "Store", "value": 100 },
+        { "label": "Boss Reward", "value": 70 }
+    ]
+    },
+    { "id": 2, 
+    "name": "Particulator", 
+    "statsChests": [
+        { "label": "Chest Brown", "value": 100 },
+        { "label": "Chest Blue", "value": 70 },
+        { "label": "Chest Green", "value": 50 },
+        { "label": "Chest Red", "value": 80 },
+        { "label": "Chest Black", "value": 100 }
+    ],
+    "statsPlaces": [
+        { "label": "Store", "value": 100 },
+        { "label": "Boss Reward", "value": 70 }
+    ]
+    },
+    { "id": 3, 
+    "name": "Hyper Light Blaster", 
+    "statsChests": [
+        { "label": "Chest Brown", "value": 15 },
+        { "label": "Chest Blue", "value": 70 },
+        { "label": "Chest Green", "value": 50 },
+        { "label": "Chest Red", "value": 80 },
+        { "label": "Chest Black", "value": 100 }
+    ],
+    "statsPlaces": [
+        { "label": "Store", "value": 100 },
+        { "label": "Boss Reward", "value": 70 }
+    ]
+    }
+]

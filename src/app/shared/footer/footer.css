@@ -1,0 +1,22 @@
+hr.custom-line {
+  border-top: 1px solid var(--primary-300); /* Usa tu variable de color */
+  opacity: 1; /* Asegura que el color se vea al 100% */
+  margin-bottom: var(--margin-bottom-element) !important;
+}
+
+.text-link{
+    color: var(--primary-300);
+}
+
+.img-footer {
+  height: 50px;
+  object-fit: contain; /* Asegura que la imagen se ajuste sin deformarse */
+  object-fit: cover;
+}
+
+#footer {
+  position: relative; /* Se mantiene dentro del flujo normal */
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0;
+}

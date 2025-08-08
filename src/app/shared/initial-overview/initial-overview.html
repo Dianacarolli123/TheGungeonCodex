@@ -1,0 +1,147 @@
+<div id="initial-overview" *ngIf="data">
+  <div class="container-xl mx-auto bg-initial-overview p-4 section">
+    <div class="row">
+      <div class="col-md-7">
+        <!-- Nombre principal -->
+        <h4 class="fw-bold element">{{ data.name }}</h4>
+
+        <!-- Descripción general para drops, enemies, guns, items -->
+        <p
+          class="overview-text"
+          *ngIf="['drop', 'enemy', 'gun', 'item'].includes(context!) && 'descriptionOverview' in data">
+          {{ data.descriptionOverview }}
+        </p>
+
+        <!-- Descripción para gungeoneers -->
+        <p *ngIf="context === 'gungeoneer' && 'info' in data">
+          {{ data.info }}
+        </p>
+
+        <!-- Tarjeta visual general para drops, items, guns, enemies -->
+        <div
+          *ngIf="['drop', 'enemy', 'gun', 'item'].includes(context!)"
+          [ngClass]="{
+            'bg-first-variant': true,
+            'rounded-drop': true
+          }"
+          class="d-flex justify-content-between align-items-center flex-wrap p-4 mb-3">
+
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <!-- Imagen + Nombre -->
+            <div class="d-flex align-items-center gap-3">
+              <img
+                *ngIf="imgSrc"
+                [src]="imgSrc"
+                class="img-fluid img-variants"
+                [alt]="'Imagen de ' + data.name" />
+              <p class="mb-0 fw-semibold">{{ data.name }}</p>
+            </div>
+
+            <!-- TIER + tipo de ítem (solo en drops o ítems) -->
+            <div *ngIf="['drop', 'item', 'gun'].includes(context!) && data.stats?.length >= 1" class="d-flex align-items-center gap-2 ms-auto">
+              <span class="text-sub-data fw-semibold">
+                Tier {{ data.stats[0].label }} 
+              </span>
+
+              <span
+                *ngIf="(context === 'drop' || context === 'item') && data.stats?.length >= 2"
+                class="text-sub-data fw-semibold">
+                {{ data.stats[1].label }}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta visual avanzada para gungeoneers -->
+        <ng-container *ngIf="context === 'gungeoneer'">
+          <!-- Armas y elementos de inicio -->
+          <ng-container *ngIf="'startupItems' in data">
+            <h5 class="fw-semibold element">
+              Armas y elementos de inicio:
+              <h6 class="fw-normal color-starts-elements">
+                {{ data.startupItems }}
+              </h6>
+            </h5>
+          </ng-container>
+
+          <!-- Versiones -->
+          <h5 class="color-subtitel-initial-overview element">
+            Versiones de {{ data.name }}
+          </h5>
+
+          <!-- Variante sin matar el pasado -->
+          <div
+          *ngIf="'version01' in data"
+          [ngClass]="{
+            'bg-first-variant': true,
+            'bg-full-rounded': !hasValidVariants()
+          }"
+          class="d-flex justify-content-between align-items-center flex-wrap p-4 mb-3">
+            <div class="d-flex align-items-center gap-3">
+              <img
+                [src]="'assets/img/Gungeoneers/' + slugify(data.name) + '01.png'"
+                class="img-fluid img-variants" />
+              <p class="mb-0 fw-semibold">{{ data.name }}</p>
+            </div>
+            <p class="mb-0 text-end text-sub-data">{{ gungeoneer?.pasado }}</p>
+          </div>
+
+          <!-- Variantes matando el pasado -->
+          <ng-container *ngIf="hasValidVariants()">
+            <div
+              *ngFor="let variant of data.version01"
+              class="d-flex justify-content-between align-items-center flex-wrap bg-second-variant p-4 mb-3">
+              
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  [src]="'assets/img/Gungeoneers/' + slugify(variant) + '01.png'"
+                  class="img-fluid img-variants"
+                  [alt]="'Imagen de variante ' + variant" />
+                <p class="mb-0 fw-semibold">{{ variant }}</p>
+              </div>
+
+              <!-- Solo muestra el pasado si el detail coincide -->
+              <p class="mb-0 text-end text-sub-data">
+                {{ getVersionPast(variant) }}
+              </p>
+            </div>
+          </ng-container>
+        </ng-container>
+      </div>
+
+      <!-- Columna derecha: aspectos destacados o beneficios -->
+      <div class="col-md-5">
+        <div *ngIf="['drop', 'enemy', 'gun', 'item'].includes(context!) && highlights?.length">
+          <h5 class="fw-semibold element">Aspectos destacados</h5>
+          <div
+            class="d-flex align-items-center inner mb-3"
+            *ngFor="let item of highlights">
+            <img src="assets/img/check.png" alt="Check" class="me-2 icon mt-1" />
+            <p class="mb-0">{{ item.label }}</p>
+          </div>
+        </div>
+
+        <!-- Beneficios para gungeoneers -->
+        <ng-container *ngIf="context === 'gungeoneer'">
+          <ng-container *ngIf="'passives' in data">
+            <h5 class="fw-semibold element">
+              {{ data.passives }}: La clave de su ventaja táctica
+            </h5>
+          </ng-container>
+
+          <div class="d-flex align-items-center inner" *ngFor="let item of getBenefits() || []">
+            <img src="assets/img/check.png" alt="Check" class="me-2 icon" />
+            <p class="mb-0">{{ item }}</p>
+          </div>
+
+          <ng-container *ngIf="'review' in data">
+            <h5 class="fw-semibold element">
+              Impacto de {{ data.passives }} en la Jugabilidad
+            </h5>
+            <p>{{ data.review }}</p>
+          </ng-container>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>

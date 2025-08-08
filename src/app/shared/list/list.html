@@ -1,0 +1,32 @@
+<div id="list">
+  <div class="container-xl mx-auto bg-list p-4 section">
+    <div class="row">
+      <div class="col-12">
+        <h4 class="fw-bold element">{{ title }}</h4>
+      </div>
+
+      <div class="col-md-4" *ngFor="let column of columns">
+        <div class="mb-4" *ngFor="let item of column; let i = index">
+          <div
+            class="d-flex justify-content-between align-items-center flex-wrap p-4 mb-3 cursor-pointer clickable-item"
+            [ngClass]="[getBgClass(i), getBorderRadiusClass(i, column)]"
+            (click)="handleClick(item)"
+          >
+            <div class="d-flex align-items-center gap-3 w-100">
+              <img [src]="item.srcImg" class="img-fluid img-variants" />
+
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <p class="mb-0 fw-semibold">{{ item.name }}</p>
+                <ng-container *ngIf="showTier && item.stats && item.stats.length > 0">
+                  <p class="mb-0 fw-semibold text-end text-sub-data">
+                    Tier {{ item.stats[0].label }}
+                  </p>
+                </ng-container>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

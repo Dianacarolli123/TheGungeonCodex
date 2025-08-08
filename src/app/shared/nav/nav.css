@@ -1,0 +1,14 @@
+/* estilos del navbar */
+.logo {
+  width: 62px;
+  height: 62px;
+  object-fit: contain; /* Asegura que la imagen se ajuste sin deformarse */
+  object-fit: cover;
+}
+
+.nav-link.active {
+  background-color: var(--primary-300); /* Usa el color naranja */
+  padding: 10px 12px; /* Espaciado para mejor visual */
+  border-radius: var(--border-radius-sm);
+}
+

@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "name": "The Marine",
+    "stats": [
+      { "label": "Accuracy", "value": 85 },
+      { "label": "Defense", "value": 90 },
+      { "label": "Mobility", "value": 70 },
+      { "label": "Reload & Ammo", "value": 90 },
+      { "label": "Synergies", "value": 75 },
+      { "label": "Consistency in Runs", "value": 95 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Galactic Commander",
+    "stats": [
+      { "label": "Health", "value": 75 },
+      { "label": "Accuracy", "value": 80 },
+      { "label": "Attack", "value": 70 },
+      { "label": "Reload Speed", "value": 85 },
+      { "label": "Versatility", "value": 60 },
+      { "label": "Supplies", "value": 85 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The Convict",
+    "stats": [
+      { "label": "Health", "value": 60 },
+      { "label": "Accuracy", "value": 80 },
+      { "label": "Attack", "value": 85 },
+      { "label": "Reload Speed", "value": 75 },
+      { "label": "Versatility", "value": 75 },
+      { "label": "Supplies", "value": 65 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Rebel Leader",
+    "stats": [
+      { "label": "Health", "value": 60 },
+      { "label": "Accuracy", "value": 80 },
+      { "label": "Attack", "value": 85 },
+      { "label": "Reload Speed", "value": 75 },
+      { "label": "Versatility", "value": 75 },
+      { "label": "Supplies", "value": 65 }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "The Hunter",
+    "stats": [
+      { "label": "Accuracy", "value": 90 },
+      { "label": "Defense", "value": 80 },
+      { "label": "Mobility", "value": 85 },
+      { "label": "Reload & Ammo", "value": 80 },
+      { "label": "Synergies", "value": 70 },
+      { "label": "Consistency in Runs", "value": 85 }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "The Huntress",
+    "stats": [
+      { "label": "Health", "value": 60 },
+      { "label": "Accuracy", "value": 90 },
+      { "label": "Attack", "value": 70 },
+      { "label": "Reload Speed", "value": 80 },
+      { "label": "Versatility", "value": 65 },
+      { "label": "Supplies", "value": 60 }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "The Pilot",
+    "stats": [
+      { "label": "Health", "value": 65 },
+      { "label": "Accuracy", "value": 70 },
+      { "label": "Attack", "value": 65 },
+      { "label": "Reload Speed", "value": 65 },
+      { "label": "Versatility", "value": 80 },
+      { "label": "Supplies", "value": 85 }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Wingman",
+    "stats": [
+      { "label": "Health", "value": 65 },
+      { "label": "Accuracy", "value": 70 },
+      { "label": "Attack", "value": 65 },
+      { "label": "Reload Speed", "value": 65 },
+      { "label": "Versatility", "value": 80 },
+      { "label": "Supplies", "value": 85 }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "The Bullet",
+    "stats": [
+      { "label": "Accuracy", "value": 60 },
+      { "label": "Defense", "value": 95 },
+      { "label": "Mobility", "value": 75 },
+      { "label": "Reload & Ammo", "value": 50 },
+      { "label": "Synergies", "value": 80 },
+      { "label": "Consistency in Runs", "value": 85 }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "The Bullet Rabbit",
+    "stats": [
+      { "label": "Accuracy", "value": 60 },
+      { "label": "Defense", "value": 95 },
+      { "label": "Mobility", "value": 75 },
+      { "label": "Reload & Ammo", "value": 50 },
+      { "label": "Synergies", "value": 80 },
+      { "label": "Consistency in Runs", "value": 85 }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "The Bullet Shotgun Kin",
+    "stats": [
+      { "label": "Accuracy", "value": 60 },
+      { "label": "Defense", "value": 95 },
+      { "label": "Mobility", "value": 75 },
+      { "label": "Reload & Ammo", "value": 50 },
+      { "label": "Synergies", "value": 80 },
+      { "label": "Consistency in Runs", "value": 85 }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "The Cultist",
+    "stats": [
+      { "label": "Health", "value": 50 },
+      { "label": "Accuracy", "value": 70 },
+      { "label": "Attack", "value": 55 },
+      { "label": "Reload Speed", "value": 70 },
+      { "label": "Versatility", "value": 60 },
+      { "label": "Supplies", "value": 65 }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "The Cultist The Apple",
+    "stats": [
+      { "label": "Health", "value": 50 },
+      { "label": "Accuracy", "value": 70 },
+      { "label": "Attack", "value": 55 },
+      { "label": "Reload Speed", "value": 70 },
+      { "label": "Versatility", "value": 60 },
+      { "label": "Supplies", "value": 65 }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "The Paradox",
+    "stats": [
+      { "label": "Health", "value": 75 },
+      { "label": "Accuracy", "value": 70 },
+      { "label": "Attack", "value": 75 },
+      { "label": "Reload Speed", "value": 75 },
+      { "label": "Versatility", "value": 85 },
+      { "label": "Supplies", "value": 75 }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "The Gunslinger",
+    "stats": [
+      { "label": "Health", "value": 75 },
+      { "label": "Accuracy", "value": 95 },
+      { "label": "Attack", "value": 95 },
+      { "label": "Reload Speed", "value": 90 },
+      { "label": "Versatility", "value": 90 },
+      { "label": "Supplies", "value": 80 }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "The Robot",
+    "stats": [
+      { "label": "Health", "value": 45 },
+      { "label": "Accuracy", "value": 90 },
+      { "label": "Attack", "value": 85 },
+      { "label": "Reload Speed", "value": 90 },
+      { "label": "Versatility", "value": 75 },
+      { "label": "Supplies", "value": 85 }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "The Robot Past",
+    "stats": [
+      { "label": "Health", "value": 45 },
+      { "label": "Accuracy", "value": 90 },
+      { "label": "Attack", "value": 85 },
+      { "label": "Reload Speed", "value": 90 },
+      { "label": "Versatility", "value": 75 },
+      { "label": "Supplies", "value": 85 }
+    ]
+  }
+]

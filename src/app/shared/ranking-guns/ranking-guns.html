@@ -1,0 +1,193 @@
+<div id="ranking-guns">
+  <div class="container-xl mx-auto p-4 section bg-ranking-guns">
+    <div class="row">
+
+      <!-- 🔹 Armas iniciales de Gungeoneer -->
+      <ng-container *ngIf="context === 'gungeoneer'">
+        <!-- Título, siempre visible -->
+        <h4 class="element fw-semibold">
+          Armas Iniciales de {{ ownerDisplayName }}
+        </h4>
+
+        <!-- 🔸 Si no hay armas iniciales -->
+        <div *ngIf="startingGuns.length === 0" class="no-starting-weapons">
+          <p class="color-subtext mt-2 mb-0 fw-semibold py-2 px-3 text-center mb-4">
+            Este personaje no tiene arma inicial
+          </p>
+        </div>
+
+        <!-- 🔹 Si hay armas iniciales, mostrar acordeón -->
+        <div class="accordion accordion-flush mb-4" id="accordionFlushStarterGun" *ngIf="startingGuns.length > 0">
+          <div
+            class="accordion-item element-guns element"
+            *ngFor="let gun of startingGuns; let i = index"
+          >
+            <h2 class="accordion-header" [id]="'headingStarterGun' + i">
+              <button
+                class="accordion-button collapsed bg-transparent"
+                type="button"
+                data-bs-toggle="collapse"
+                [attr.data-bs-target]="'#collapseStarterGun' + i"
+                aria-expanded="false"
+                [attr.aria-controls]="'collapseStarterGun' + i"
+              >
+                <div class="w-100 d-flex justify-content-between align-items-center">
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="img-fluid img-variants me-3"
+                      [src]="gun.srcImg"
+                      [alt]="gun.name"
+                    />
+                    <div class="d-flex flex-column">
+                      <p class="color-stat fw-semibold inner">{{ gun.name }}</p>
+                      <div class="d-flex justify-content-center gap-2">
+                        <span
+                          class="color-stat fw-semibold label color-subtext py-1 px-2"
+                          *ngFor="let tag of gun.stats.slice(1, 3)"
+                        >
+                          {{ tag.label }}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div *ngIf="gun.stats.length > 0" class="d-flex flex-column text-center me-4">
+                      <p class="color-stat mb-0 color-subtitle">Tier</p>
+                      <p class="color-stat mb-0 color-subtext fw-semibold">
+                        {{ gun.stats[0].label }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </h2>
+            <div
+              class="accordion-collapse collapse"
+              [id]="'collapseStarterGun' + i"
+              [attr.aria-labelledby]="'headingStarterGun' + i"
+              data-bs-parent="#accordionFlushStarterGun"
+            >
+              <div class="accordion-body p-4">
+                <div *ngIf="gun.stats.length > 3; else randomizedFallback" class="row row-cols-2 row-cols-md-5 g-5 text-center">
+                  <div class="col" *ngFor="let stat of gun.stats.slice(3)">
+                    <div class="d-flex flex-column">
+                      <p class="color-stat fw-semibold inner color-subtitle">{{ stat.label }}</p>
+                      <p class="color-stat mb-0 fw-semibold label color-subtext py-1 px-2">
+                        {{ stat.value || '–' }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 🔸 Mensaje para armas aleatorias -->
+                <ng-template #randomizedFallback>
+                  <p class="color-subtext text-center fw-semibold py-2 px-3 mb-0">
+                    Este personaje comienza con 2 armas aleatorias. Su tipo varía en cada partida.
+                  </p>
+                </ng-template>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+
+      <!-- 🔹 Título dinámico para la sección de ranking -->
+      <h4 class="element fw-semibold">
+        <ng-container [ngSwitch]="context">
+          <ng-container *ngSwitchCase="'enemy'">
+            {{ gunRankingList.length === 1 ? 'Arma que usa' : 'Armas que usa' }} {{ ownerDisplayName }}
+          </ng-container>
+          <ng-container *ngSwitchCase="'gungeoneer'">
+            Ranking de mejores armas para {{ ownerDisplayName }}
+          </ng-container>
+          <ng-container *ngSwitchCase="'gun'">
+            Armas que se ven potenciadas o tienen sinergia con {{ ownerDisplayName }}
+          </ng-container>
+          <ng-container *ngSwitchCase="'item'">
+            Armas potenciadas por el ítem {{ ownerDisplayName }}
+          </ng-container>
+          <ng-container *ngSwitchCase="'drop'">
+            Armas potenciadas por el drop {{ ownerDisplayName }}
+          </ng-container>
+          <ng-container *ngSwitchDefault>
+            Armas recomendadas para {{ ownerDisplayName }}
+          </ng-container>
+        </ng-container>
+      </h4>
+
+      <!-- 🔹 Armas del ranking -->
+      <div *ngIf="gunRankingList.length > 0; else noWeapon">
+        <div class="accordion accordion-flush" id="accordionFlushGuns">
+          <div
+            class="accordion-item element-guns element"
+            *ngFor="let gun of gunRankingList; let i = index"
+          >
+            <h2 class="accordion-header" [id]="'heading' + i">
+              <button
+                class="accordion-button collapsed bg-transparent"
+                type="button"
+                data-bs-toggle="collapse"
+                [attr.data-bs-target]="'#collapse' + i"
+                aria-expanded="false"
+                [attr.aria-controls]="'collapse' + i"
+              >
+                <div class="w-100 d-flex justify-content-between align-items-center">
+                  <div class="d-flex align-items-center">
+                    <img class="img-fluid img-variants me-3" [src]="gun.srcImg" [alt]="gun.name" />
+                    <div class="d-flex flex-column">
+                      <p class="color-stat fw-semibold inner">{{ gun.name }}</p>
+                      <div class="d-flex justify-content-center gap-2">
+                        <span
+                          class="color-stat fw-semibold label color-subtext py-1 px-2"
+                          *ngFor="let tag of gun.stats.slice(1, 3)"
+                        >
+                          {{ tag.label }}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="d-flex flex-column text-center me-4">
+                      <p class="color-stat mb-0 color-subtitle">Tier</p>
+                      <p class="color-stat mb-0 color-subtext fw-semibold">
+                        {{ gun.stats[0].label }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </h2>
+            <div
+              class="accordion-collapse collapse"
+              [id]="'collapse' + i"
+              [attr.aria-labelledby]="'heading' + i"
+              data-bs-parent="#accordionFlushGuns"
+            >
+              <div class="accordion-body p-4">
+                <div class="row row-cols-2 row-cols-md-5 g-5 text-center">
+                  <div class="col" *ngFor="let stat of gun.stats.slice(3)">
+                    <div class="d-flex flex-column">
+                      <p class="color-stat fw-semibold inner color-subtitle">{{ stat.label }}</p>
+                      <p class="color-stat mb-0 fw-semibold label color-subtext py-1 px-2">
+                        {{ stat.value || '–' }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ng-template #noWeapon>
+        <p class="color-subtext mt-3 mb-0 fw-semibold py-2 px-3 text-center">
+          {{ currentOwner === 'The Paradox' ? 
+            'No se puede recomendar un arma porque The Paradox comienza con equipo aleatorio.' :
+            'Este personaje no usa arma.' }}
+        </p>
+      </ng-template>
+
+    </div>
+  </div>
+</div>

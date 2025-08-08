@@ -1,0 +1,19 @@
+[
+  { "id": 1, "name": "The Gunslinger", "rankinPosition": "1st most popular", "stat": 100 },
+  { "id": 2, "name": "The Bullet", "rankinPosition": "2nd most popular", "stat": 95 },
+  { "id": 3, "name": "The Marine", "rankinPosition": "3rd most popular", "stat": 90 },
+  { "id": 4, "name": "The Pilot", "rankinPosition": "4th most popular", "stat": 88 },
+  { "id": 5, "name": "The Hunter", "rankinPosition": "5th most popular", "stat": 85 },
+  { "id": 6, "name": "The Convict", "rankinPosition": "6th most popular", "stat": 83 },
+  { "id": 7, "name": "The Robot", "rankinPosition": "7th most popular", "stat": 80 },
+  { "id": 8, "name": "The Paradox", "rankinPosition": "8th most popular", "stat": 78 },
+  { "id": 9, "name": "The Cultist", "rankinPosition": "9th most popular", "stat": 75 },
+  { "id": 10, "name": "The Huntress", "rankinPosition": "10th most popular", "stat": 72 },
+  { "id": 11, "name": "Galactic Commander", "rankinPosition": "11th most popular", "stat": 70 },
+  { "id": 12, "name": "Rebel Leader", "rankinPosition": "12th most popular", "stat": 68 },
+  { "id": 13, "name": "Wingman", "rankinPosition": "13th most popular", "stat": 66 },
+  { "id": 14, "name": "The Robot Past", "rankinPosition": "14th most popular", "stat": 64 },
+  { "id": 15, "name": "The Bullet Rabbit", "rankinPosition": "15th most popular", "stat": 62 },
+  { "id": 16, "name": "The Bullet Shotgun Kin", "rankinPosition": "16th most popular", "stat": 60 },
+  { "id": 17, "name": "The Cultist The Apple", "rankinPosition": "17th most popular", "stat": 58 }
+]

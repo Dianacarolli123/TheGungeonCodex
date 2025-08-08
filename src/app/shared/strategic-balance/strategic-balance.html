@@ -1,0 +1,24 @@
+<div id="strategic-balance">
+  <div class="container-xl mx-auto p-4 section bg-strategic-balance">
+    <div class="row">
+    <h4 class="element fw-semibold">
+      <ng-container *ngIf="isDetailView; else generalTitle">
+        Strategies of {{ name }}
+      </ng-container>
+      <ng-template #generalTitle>
+        Strategic Comparison
+      </ng-template>
+    </h4>
+
+    <p *ngIf="isDetailView" class="color-subtitel">
+      {{ average | number: '1.0-1' }}% Strategic balance
+    </p>
+  </div>
+
+    <div class="row mt-4">
+      <div class="col-md-12 p-0">
+        <canvas #chartCanvas height="300" ></canvas>
+      </div>
+    </div>
+  </div>
+</div>

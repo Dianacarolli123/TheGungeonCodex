@@ -1,0 +1,33 @@
+<app-title
+  [personaje]="gungeoneer?.name"
+  [description]="gungeoneer?.description"
+  [srcImg]="gungeoneer?.srcImg">
+</app-title>
+<app-initial-overview
+  *ngIf="overview"
+  [data]="overview"
+  [imgSrc]="gungeoneer?.srcImg"
+  [gungeoneer]="gungeoneer"
+  [versionDetail]="versionDetail"
+  [context]="'gungeoneer'">
+</app-initial-overview>
+<app-compendium 
+  [compendiumData]="compendiumEntry">
+</app-compendium>
+<app-ranking [rankingEntry]="rankingEntry"></app-ranking>
+<app-strategic-balance
+  *ngIf="strategicEntry"
+  [name]="strategicEntry.name"
+  [stats]="strategicEntry.stats"
+  [isDetailView]="true">
+</app-strategic-balance>
+<app-ranking-guns
+  [guns]="gunRankingList"
+  [currentOwner]="compendiumEntry.name"
+  [context]="'gungeoneer'"
+></app-ranking-guns>
+<app-recommended-items
+  *ngIf="gungeoneer.name"
+  [currentGungeoneer]="gungeoneer.name"
+  [context]="'gungeoneer'">
+</app-recommended-items>

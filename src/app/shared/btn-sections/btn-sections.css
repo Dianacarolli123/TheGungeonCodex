@@ -1,0 +1,73 @@
+.color-subtitel{
+    color: var(--primary-1600);
+} 
+
+/* 🔹 Contenedor individual de cada botón visual */
+.section-card {
+  width: 300px;
+}
+
+/* 🔹 Botón en sí, con estilos base */
+.btn-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centrado vertical */
+  align-items: center;     /* centrado horizontal */
+  text-align: center;
+  height: 220px;
+  padding: 14px;
+  border-radius: var(--border-radius-lg);
+  color: #fff;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: #2f3e46;
+}
+
+/* 🔹 Hover sobre el botón */
+.btn-section:hover {
+  transform: translateY(-3px);
+  opacity: 0.95;
+}
+
+/* 🔹 Imagen dentro del botón */
+.btn-section img {
+  height: 110px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  margin-bottom: 0; /* elimina el espacio extra si lo hubiera */
+}
+
+
+.btn-section:hover img {
+  transform: scale(1.1);
+}
+
+/* 🔹 Texto debajo de la imagen */
+.btn-section span {
+  font-size: 18px;
+  color: inherit;
+  margin-bottom: 8px;
+}
+
+
+/* 🔹 Colores temáticos por slug */
+.gungeoneers .btn-section {
+  background-color: var(--primary-300);
+  border: 8px solid var(--primary-400);
+}
+
+.drops .btn-section {
+  background-color: var(--primary-1000);
+  border: 8px solid var(--primary-1100);
+}
+
+.items .btn-section,
+.enemies .btn-section {
+  background-color: var(--primary-100);
+  border: 8px solid var(--primary-200);
+}
+
+.guns .btn-section {
+  background-color: var(--primary-300);
+  border: 8px solid var(--primary-400);
+}

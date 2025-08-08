@@ -1,0 +1,64 @@
+<div id="metric-dualbar-list">
+  <div class="container-xl mx-auto p-4 section bg-metric-dualbar-list">
+    <div class="row">
+      <div class="col-12 mb-3">
+        <div class="d-flex justify-content-between align-items-center inner">
+          <!-- Encabezado dinámico -->
+          <h4 class="mb-0 element fw-semibold">
+            {{ isEnemyView ? 'Probability of Appearance' : 'Popularity Ranking'
+            }}
+          </h4>
+          <p *ngIf="!isEnemyView" class="mb-0 py-1 px-3 label fw-semibold">
+            based on community
+          </p>
+        </div>
+      </div>
+
+      <!-- Columna izquierda -->
+      <div class="col-md-6">
+        <p *ngIf="isEnemyView" class="color-stat fw-semibold">Pisos normales</p>
+        <div *ngFor="let entry of leftColumn; index as i" class="mb-4">
+          <div class="d-flex justify-content-between align-items-center inner">
+            <p class="color-subtitel">
+              <span *ngIf="!isEnemyView">{{ i + 1 }}.-</span>
+              {{ entry.label || entry.name }}
+              <span *ngIf="!isEnemyView">'s popularity</span>
+            </p>
+            <p class="color-stat">{{ getEntryValue(entry) }}/100</p>
+          </div>
+          <div class="progress mt-2 element">
+            <div
+              class="progress-bar bg-progress-bar"
+              [style.width.%]="getEntryValue(entry)"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna derecha -->
+      <div class="col-md-6">
+        <p *ngIf="isEnemyView" class="color-stat fw-semibold">
+          Pisos Especiales/Secretos
+        </p>
+        <div *ngFor="let entry of rightColumn; index as i" class="mb-4">
+          <div class="d-flex justify-content-between align-items-center inner">
+            <p class="color-subtitel">
+              <span *ngIf="!isEnemyView"
+                >{{ i + leftColumn.length + 1 }}.-</span
+              >
+              {{ entry.label || entry.name }}
+              <span *ngIf="!isEnemyView">'s popularity</span>
+            </p>
+            <p class="color-stat">{{ getEntryValue(entry) }}/100</p>
+          </div>
+          <div class="progress mt-2 element">
+            <div
+              class="progress-bar bg-progress-bar"
+              [style.width.%]="getEntryValue(entry)"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

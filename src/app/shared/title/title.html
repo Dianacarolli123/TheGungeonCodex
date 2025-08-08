@@ -1,0 +1,19 @@
+<div id="title">
+  <div class="container-lg mx-auto section">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1 class="fs-60 fw-bold">{{ headerText }}</h1>
+        <h1 class="fs-60 fw-bold gradient-title element">{{ personaje }}</h1>
+        <p class="fs-18 color-description-titel">{{ description }}</p>
+      </div>
+      <div class="col-md-6">
+        <img 
+        *ngIf="srcImg !== 'assets/img/Sections/gungeoneers.png'" 
+        [src]="srcImg" 
+        [alt]="personaje" 
+        class="img-fluid ps-5 img-title d-block ms-auto"
+        [style.height.px]="imgHeight || null" />
+      </div>
+    </div>
+  </div>
+</div>

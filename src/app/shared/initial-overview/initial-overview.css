@@ -1,0 +1,39 @@
+.color-starts-elements{
+    color: var(--primary-100);
+}
+.color-subtitel-initial-overview{
+    color: var(--primary-1600);
+}
+
+.bg-initial-overview{
+    background-color: var(--primary-600);
+    border-radius: var(--border-radius-lg) ;
+}
+
+.bg-first-variant{
+    background-color: var(--primary-500);
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0 ;
+}
+
+.bg-second-variant{
+    background-color: var(--primary-800);
+    border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg);
+}
+
+.text-sub-data{
+    color: var(--primary-1600);
+}
+
+.bg-only-variant {
+    background-color: var(--primary-500);
+    border-radius: var(--border-radius-lg);
+}
+
+.rounded-drop {
+  border-radius: 16px;
+  overflow: hidden; /* opcional, si quieres que imagen y contenido también respeten ese redondeo */
+}
+
+.bg-full-rounded {
+  border-radius: var(--border-radius-lg);
+}

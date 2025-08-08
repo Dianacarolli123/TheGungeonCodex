@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "name": "The Marine",
+    "version01": ["Galactic Commander"],
+    "info": "Soldado disciplinado con entrenamiento militar. Comienza con una armadura adicional y gran precisión.",
+    "startupItems": "Sidearm Marino, Caída de suministro, Entrenamiento militar y 1 Armadura.",
+    "passives": "Military Training",
+    "data": [
+      "Mayor precisión",
+      "Recarga más rápida",
+      "Munición adicional inicial",
+      "Estabilidad mejorada",
+      "Sinergias militares reforzadas"
+    ],
+    "review": "Ideal para armas de fuego rápido y escopetas de alto DPS. Su precisión le da consistencia táctica."
+  },
+  {
+    "id": 2,
+    "name": "Galactic Commander",
+    "version01": [""],
+    "info": "Versión evolucionada de The Marine con estética galáctica. Conserva sus talentos tácticos.",
+    "startupItems": "Sidearm Marino mejorado, Caída de suministro táctica, Entrenamiento reforzado.",
+    "passives": "Military Training",
+    "data": [
+      "Mismo control militar",
+      "Apariencia renovada",
+      "Mejora visual de HUD y efectos",
+      "Sinergias gráficas con armas tecnológicas",
+      "Mayor claridad de hitboxes"
+    ],
+    "review": "Perfecto para quienes priorizan eficiencia sin perder estilo militar. Excelente para jugadores metódicos."
+  },
+  {
+    "id": 3,
+    "name": "The Convict",
+    "version01": ["Rebel Leader"],
+    "info": "Criminal impulsiva que se potencia al recibir daño. Comienza con armas incendiarias y foto de furia.",
+    "startupItems": "Derringer, Molotov y Enraging Photo.",
+    "passives": "Enraging Photo",
+    "data": [
+      "Incremento de daño al recibir golpes",
+      "Explosiones estratégicas",
+      "Alta agresividad",
+      "Sinergia con armas de ráfaga",
+      "Estilo reactivo ofensivo"
+    ],
+    "review": "Perfecta para una jugabilidad arriesgada. Brilla cuando domina el caos del combate."
+  },
+  {
+    "id": 4,
+    "name": "Rebel Leader",
+    "version01": [""],
+    "info": "Versión post-pasado de The Convict. Más calculada pero igual de agresiva.",
+    "startupItems": "Derringer modificado, Molotov incendiario, Enraging Photo reforzada.",
+    "passives": "Enraging Photo",
+    "data": [
+      "Molotov con mayor alcance",
+      "Estética rebelde",
+      "Pasiva potenciada",
+      "Accesorios visuales distintivos",
+      "Balance entre daño y movilidad"
+    ],
+    "review": "La convicta reimaginada para jugadas ofensivas más tácticas. Menos caótica, más letal."
+  },
+  {
+    "id": 5,
+    "name": "The Hunter",
+    "version01": ["The Huntress"],
+    "info": "Cazadora precisa con una ballesta, pistola y su fiel perro que detecta ítems.",
+    "startupItems": "Ballesta, Rusty Sidearm y Perro Rastreador.",
+    "passives": "Animal Companion",
+    "data": [
+      "Detección de ítems",
+      "Buen control a distancia",
+      "Armas balanceadas",
+      "Ayuda pasiva de mascota",
+      "Ideal para juego explorador"
+    ],
+    "review": "Personaje amigable para quienes priorizan control y loot. Precisa desde el primer piso."
+  },
+  {
+    "id": 6,
+    "name": "The Huntress",
+    "version01": [""],
+    "info": "Versión alternativa de la cazadora, con outfit más sigiloso y mejoras visuales.",
+    "startupItems": "Ballesta mejorada, Rusty Sidearm, Perro ágil.",
+    "passives": "Animal Companion",
+    "data": [
+      "Aspecto estilizado",
+      "Perro con animaciones únicas",
+      "Sinergia con ítems de rastreo",
+      "Misma funcionalidad base",
+      "Ideal para estilo táctico"
+    ],
+    "review": "Para quienes disfrutan del estilo sin perder precisión. Una cazadora con clase."
+  },
+  {
+    "id": 7,
+    "name": "The Pilot",
+    "version01": ["Wingman"],
+    "info": "Contrabandista versátil con armas débiles pero bonificaciones de saqueo y evasión.",
+    "startupItems": "Rusty Sidearm, Lockpick y Chaqueta con bonificación de evasión.",
+    "passives": "Trusty Lockpick",
+    "data": [
+      "Probabilidad de abrir cofres sin llave",
+      "Bonificación de esquiva",
+      "Ideal para salas secretas",
+      "Movilidad constante",
+      "Adaptable a cualquier run"
+    ],
+    "review": "Su habilidad de abrir cofres y esquivar mejor lo hacen ideal para runs largas y recolectoras."
+  },
+  {
+    "id": 8,
+    "name": "Wingman",
+    "version01": [""],
+    "info": "El piloto en su versión elegante y confiada. Mantiene su rol de apoyo táctico.",
+    "startupItems": "Lockpick mejorado, Sidearm estilizado, Chaqueta táctica.",
+    "passives": "Trusty Lockpick",
+    "data": [
+      "Misma funcionalidad base",
+      "Aspecto aéreo",
+      "Sinergias visuales con armas de estilo",
+      "Actitud relajada",
+      "Ideal para jugabilidad casual-técnica"
+    ],
+    "review": "Un piloto con actitud. Misma estrategia de loot, diferente presencia."
+  },
+  {
+    "id": 9,
+    "name": "The Robot",
+    "version01": ["The Robot Past"],
+    "info": "Android jugable sin corazones, solo armadura. Se cura recolectando chatarra.",
+    "startupItems": "Robot’s Right Hand, Battery Bullets, Active Reload.",
+    "passives": "Coolant Leak",
+    "data": [
+      "Gran defensa con armadura",
+      "No recibe corazones",
+      "Sinergia con energías eléctricas",
+      "Recarga técnica",
+      "Ideal para precisión extrema"
+    ],
+    "review": "Desafiante pero poderoso si se aprovechan sus balas únicas y recarga técnica."
+  },
+  {
+    "id": 10,
+    "name": "The Robot Past",
+    "version01": [""],
+    "info": "Versión sheriff del robot, con estética del viejo oeste tecnológico.",
+    "startupItems": "Robot’s Right Hand dorado, Coolant reforzado, Recarga rápida.",
+    "passives": "Coolant Leak",
+    "data": [
+      "Estilo vaquero cyberpunk",
+      "Mayor visibilidad de proyectiles",
+      "Reforzada armadura inicial",
+      "Mejor recarga con sinergias",
+      "Ideal para runs visuales y eficientes"
+    ],
+    "review": "Conserva la jugabilidad extrema pero luce como una máquina de ley y orden."
+  },
+  {
+    "id": 11,
+    "name": "The Bullet",
+    "version01": ["The Bullet Rabbit", "The Bullet Shotgun Kin"],
+    "info": "Una bala viva que comienza con una espada defensiva. Puede reflejar proyectiles.",
+    "startupItems": "Blasphemy, Live Ammo.",
+    "passives": "Sword Block",
+    "data": [
+      "Refleja proyectiles enemigos",
+      "Empieza con arma cuerpo a cuerpo",
+      "Gran movilidad",
+      "Alta sinergia con objetos de contacto",
+      "Personaje único en mecánicas"
+    ],
+    "review": "Uno de los más poderosos en manos expertas. Jugar agresivamente se vuelve seguro."
+  },
+  {
+    "id": 12,
+    "name": "The Bullet Rabbit",
+    "version01": [""],
+    "info": "Skin alternativa con orejas de conejo. No modifica habilidades ni mecánicas.",
+    "startupItems": "Blasphemy, Live Ammo.",
+    "passives": "Sword Block",
+    "data": [
+      "Apariencia divertida y ligera",
+      "No afecta el rendimiento del personaje",
+      "Disponible por tiempo limitado en eventos"
+    ],
+    "review": "Una skin encantadora para los fans del estilo cute. Mantiene toda la potencia del Bullet original."
+  },
+  {
+    "id": 13,
+    "name": "The Bullet Shotgun Kin",
+    "version01": [""],
+    "info": "Skin inspirada en los enemigos Shotgun Kin. Exclusiva de PS4.",
+    "startupItems": "Blasphemy, Live Ammo.",
+    "passives": "Sword Block",
+    "data": [
+      "Estética oscura y agresiva",
+      "Fidelidad visual al lore del Gungeon",
+      "Skin con disponibilidad limitada"
+    ],
+    "review": "Una variante visual para quienes prefieren un estilo intimidante. No altera gameplay."
+  },
+  {
+    "id": 14,
+    "name": "The Cultist",
+    "version01": ["The Cultist The Apple"],
+    "info": "Personaje exclusivo para modo cooperativo. Comienza con una pistola y la Caja del Amigo.",
+    "startupItems": "Friendship Cookie, Dart Gun.",
+    "passives": "Co-Op Revival",
+    "data": [
+      "Puede revivir al compañero",
+      "Menor daño individual",
+      "Ideal para soporte",
+      "Caja del Amigo activa sinergias de amistad",
+      "No tiene modo historia propio"
+    ],
+    "review": "Pensado para acompañar, no para protagonizar. No tiene pasado que matar, pero es esencial en runs cooperativas."
+  },
+  {
+    "id": 15,
+    "name": "The Cultist The Apple",
+    "version01": [""],
+    "info": "Skin especial donde el personaje aparece como una gran manzana. Sin cambios en habilidades.",
+    "startupItems": "Friendship Cookie, Dart Gun.",
+    "passives": "Co-Op Revival",
+    "data": [
+      "Aspecto redondo y cómico",
+      "No afecta stats ni objetos iniciales",
+      "Skin celebratoria de tono humorístico"
+    ],
+    "review": "Una versión visualmente absurda y divertida del Cultist. Ideal para partidas cooperativas con estilo."
+  },
+  {
+    "id": 16,
+    "name": "The Paradox",
+    "version01": [""],
+    "info": "Entidad temporal que inicia con objetos y armas aleatorias. Representa runs caóticas pero poderosas.",
+    "startupItems": "Aleatorios en cada partida.",
+    "passives": "Random Starter",
+    "data": [
+      "Pasivas y armas variables",
+      "Ideal para jugadores con experiencia",
+      "No se repite el inicio",
+      "Potencial para sinergias impredecibles",
+      "Run altamente flexible"
+    ],
+    "review": "El personaje más impredecible. Cada run es única, ideal para explorar combinaciones que no verías normalmente."
+  },
+  {
+    "id": 17,
+    "name": "The Gunslinger",
+    "version01": [""],
+    "info": "Personaje secreto con acceso a sinergias automáticas. Solo se desbloquea al vencer el pasado de Paradox.",
+    "startupItems": "Revolver de Casey, efecto sinérgico automático.",
+    "passives": "Master of Synergy",
+    "data": [
+      "Activa todas sinergias automáticamente",
+      "Altísimo potencial DPS",
+      "Ideal para armas únicas",
+      "Gran escalabilidad de poder",
+      "Personaje más potente en manos hábiles"
+    ],
+    "review": "Con sinergias activadas, cada objeto se transforma. Ofrece la experiencia más rota del juego cuando se domina."
+  }
+]

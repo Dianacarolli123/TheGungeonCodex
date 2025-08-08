@@ -1,0 +1,59 @@
+[
+    { "id": 1, 
+    "name": "Hexagun", 
+    "lore": "Dispara maldiciones. La Hexagun fue creada por una poderosa bruja que la utilizó para cazar a quienes usaban la magia con fines malvados. Dispara proyectiles malditos que tienen la posibilidad de transmogrificar enemigos en gallinas.",
+    "statsDescription": [
+        { "label": "Automática"},
+        { "label": "Tier A"}
+    ],
+    "stats": [
+        { "label": "Health", "value": 100 },
+        { "label": "Accuracy", "value": 85 },
+        { "label": "Attack", "value": 60 },
+        { "label": "Reload Speed", "value": 80 },
+        { "label": "Versatility", "value": 65 },
+        { "label": "Supplies", "value": 75 },
+        { "label": "Defense", "value": 70 }
+    ],
+    "srcImgbg": "assets/img/Guns/hexagun02.png"    
+    },
+    { "id": 2, 
+    "name": "Particulator", 
+    "lore": "Dispara maldiciones. La Hexagun fue creada por una poderosa bruja que la utilizó para cazar a quienes usaban la magia con fines malvados. Dispara proyectiles malditos que tienen la posibilidad de transmogrificar enemigos en gallinas.",
+    "statsDescription": [
+        { "label": "Automática"},
+        { "label": "Tier A"}
+    ],
+    "stats": [
+        { "label": "Health", "value": 100 },
+        { "label": "Accuracy", "value": 85 },
+        { "label": "Attack", "value": 60 },
+        { "label": "Reload Speed", "value": 80 },
+        { "label": "Versatility", "value": 65 },
+        { "label": "Supplies", "value": 75 },
+        { "label": "Defense", "value": 70 }
+    ],        
+    "srcImgbg": "assets/img/Guns/hexagun02.png"    
+    },
+    { "id": 3, 
+    "name": "Hyper Light Blaster", 
+    "lore": "Dispara maldiciones. La Hexagun fue creada por una poderosa bruja que la utilizó para cazar a quienes usaban la magia con fines malvados. Dispara proyectiles malditos que tienen la posibilidad de transmogrificar enemigos en gallinas.",
+    "statsDescription": [
+        { "label": "Automática"},
+        { "label": "Tier B"}
+    ],
+    "stats": [
+        { "label": "Health", "value": 100 },
+        { "label": "Accuracy", "value": 85 },
+        { "label": "Attack", "value": 60 },
+        { "label": "Reload Speed", "value": 80 },
+        { "label": "Versatility", "value": 65 },
+        { "label": "Supplies", "value": 75 },
+        { "label": "Defense", "value": 70 }
+    ],    
+    "srcImgbg": "assets/img/Guns/hexagun02.png"    
+    }
+    
+
+]
+

@@ -1,0 +1,40 @@
+<div id="btn-sections">
+  <div class="container-xl mx-auto bg-compendium p-4 ">
+        
+        <!-- Fila 1: 3 botones -->
+        <div class="d-flex justify-content-center flex-wrap gap-4 mb-4">
+        <div 
+            class="section-card d-flex flex-column align-items-center"
+            *ngFor="let section of sections.slice(0, 3)"
+            [ngClass]="section.slug"
+        >
+            <a 
+            [routerLink]="['/', section.slug]" 
+            class="btn-section text-decoration-none text-center w-100"
+            >
+            <span class="fw-bold d-block">{{ section.title }}</span>
+            <img [src]="section.srcImg" [alt]="section.title" class="img-fluid mb-2" />
+            </a>
+        </div>
+        </div>
+
+        <!-- Fila 2: 2 botones centrados -->
+        <div class="d-flex justify-content-center flex-wrap gap-4 section">
+        <div 
+            class="section-card d-flex flex-column align-items-center"
+            *ngFor="let section of sections.slice(3, 5)"
+            [ngClass]="section.slug"
+        >
+            <a 
+            [routerLink]="['/', section.slug]" 
+            class="btn-section text-decoration-none text-center w-100"
+            >
+                <span class="fw-bold d-block">{{ section.title }}</span>
+                <img [src]="section.srcImg" [alt]="section.title" class="img-fluid mb-2" />
+            </a>
+        </div>
+        </div>
+
+        <p class="text-center mt-4 fs-5 color-subtitel fw-semibold">Próximamente más secciones... :)</p>
+    </div>
+</div>

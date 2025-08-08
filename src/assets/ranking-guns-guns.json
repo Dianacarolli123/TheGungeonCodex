@@ -1,0 +1,57 @@
+[
+    { "id": 1, 
+    "name": "Hexagun",
+    "guns": [
+        {
+            "label": "Hexagun",
+            "overrides": {
+                "DPS": 30,
+                "Tiempo de recarga": 1.0
+            }
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "overrides": {
+                "DPS": 90,
+                "Tiempo de recarga": 1.2
+            }
+        },
+        {
+            "label": "Rusty Sidearm",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92,
+                "Munición total": 6
+            }
+        }
+    ]
+
+    },
+
+    { "id": 2, 
+    "name": "Hyper Light Blaster", 
+    "guns": [
+        {
+            "label": "Hexagun",
+            "overrides": {
+                "DPS": 30,
+                "Tiempo de recarga": 1.0
+            }
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "overrides": {
+                "DPS": 90,
+                "Tiempo de recarga": 1.2
+            }
+        },
+        {
+            "label": "Particulator",
+            "overrides": {
+                "DPS": 45,
+                "Tiempo de recarga": 1.92
+            }
+        }
+    ]
+    }
+]

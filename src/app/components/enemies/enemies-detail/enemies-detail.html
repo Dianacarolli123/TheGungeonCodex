@@ -1,0 +1,33 @@
+<app-title
+  [personaje]="enemy.name"
+  [description]="enemy.description"
+  [srcImg]="enemy.srcImg"
+>
+</app-title>
+<app-initial-overview
+  *ngIf="enemy"
+  [data]="enemy"
+  [imgSrc]="enemy.srcImg"
+  [context]="'enemy'"
+  [highlights]="enemy.stats"
+>
+</app-initial-overview>
+<app-compendium
+  *ngIf="enemyCompendium"
+  [compendiumData]="enemyCompendium"
+  [entityType]="'enemy'"
+>
+</app-compendium>
+<app-metric-dualbar-list
+  *ngIf="enemyAppearance"
+  [isEnemyView]="true"
+  [enemyStatsNormal]="enemyAppearance.statsNormal"
+  [enemyStatsSpecial]="enemyAppearance.statsSpecial"
+>
+</app-metric-dualbar-list>
+<app-ranking-guns
+  [guns]="gunSet"
+  [currentOwner]="enemy.name"
+  [isEnemyView]="true"
+>
+</app-ranking-guns>

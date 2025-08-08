@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Ballot",
+        "stats": [
+        {
+            "label": "Hexagun",
+            "value": "Su estilo preciso mejora aún más, reduciendo errores y maximizando la frescura para una activación eficiente de objetos."
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        },
+        {
+            "label": "Particulator",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Meatbun",
+        "stats": [
+        {
+            "label": "Hexagun",
+            "value": "Su estilo preciso mejora aún más, reduciendo errores y maximizando la frescura para una activación eficiente de objetos."
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        },
+        {
+            "label": "Particulator",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Medkit",
+        "stats": [
+        {
+            "label": "Hexagun",
+            "value": "Su estilo preciso mejora aún más, reduciendo errores y maximizando la frescura para una activación eficiente de objetos."
+        },
+        {
+            "label": "Hyper Light Blaster",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        },
+        {
+            "label": "Particulator",
+            "value": "Su agresividad se estabiliza, lo que le permite aprovechar la frescura y activar ítems con mayor frecuencia."
+        }
+        ]
+    }
+    
+]
